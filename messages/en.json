@@ -1,0 +1,561 @@
+{
+  "LocaleSwitcher": {
+    "zh": "Chinese",
+    "en": "English",
+    "label": "Language"
+  },
+  "AppLayout": {
+    "NabTop": {
+      "social": "Follow Us "
+    },
+    "navData": {
+      "menu1": {
+        "path": "/",
+        "title": "Home",
+        "subMenu": ""
+      },
+      "menu2": {
+        "path": "/services",
+        "title": "Services",
+        "subMenu": "isMenu"
+      },
+      "menu3": {
+        "path": "/about",
+        "title": "About Us",
+        "subMenu": ""
+      },
+      "menu4": {
+        "path": "/portfolio",
+        "title": "Portfolio",
+        "subMenu": ""
+      },
+      "menu5": {
+        "path": "/blog",
+        "title": "Blog",
+        "subMenu": ""
+      },
+      "menu6": {
+        "path": "/contact",
+        "title": "Contact",
+        "subMenu": ""
+      }
+    }
+  },
+  "HomePage": {
+    "title": "Home",
+    "CncMachined": {
+      "title": "Top Quality CNC Machining Solutions"
+    },
+    "WhyChoose": {
+      "title": "Why Choose Us as Your Preferred CNC Machining Partner?",
+      "Features": {
+        "feature1": {
+          "id": 1,
+          "icon": "img1",
+          "title": "Commitment ",
+          "description": "We believe in building lasting relationships. Our team is dedicated to understanding your unique needs and challenges, working closely with you to provide the best possible solutions.",
+          "link": "/"
+        },
+        "feature2": {
+          "id": 2,
+          "icon": "img2",
+          "title": "Expertise",
+          "description": "With over a decade of industry experience, we have the skills and insight to handle complex projects across various sectors. Our seasoned experts bring precision and reliability to every job.",
+          "link": "/"
+        },
+        "feature3": {
+          "id": 3,
+          "icon": "img3",
+          "title": "Tailored Solutions",
+          "description": "No project is too small or complex. Whether it’s a one-off prototype or a large production run, we adapt to your needs, ensuring the right solution for every project size.",
+          "link": "/"
+        },
+        "feature4": {
+          "id": 4,
+          "icon": "img1",
+          "title": "Advanced Technology",
+          "description": "We invest in the latest CNC technology and equipment to stay at the forefront of machining. Our advanced capabilities mean you receive parts that are both precise and durable.",
+          "link": "/"
+        },
+        "feature5": {
+          "id": 5,
+          "icon": "img2",
+          "title": "Responsive &Transparent Service",
+          "description": "We prioritize open communication and fast responses, keeping you informed at every stage of your project. You can count on us for timely updates and a commitment to delivering on schedule.",
+          "link": "/"
+        },
+        "feature6": {
+          "id": 6,
+          "icon": "img3",
+          "title": "Cost-Effective Manufacturing:",
+          "description": "By leveraging advanced technology and efficient production methods, we offer high-quality parts at competitive prices. Our focus on reducing waste and optimizing processes ensures cost savings without sacrificing quality.",
+          "link": "/"
+        }
+      },
+      "button": "SEE OUR WORK"
+    },
+    "CustomPart": {
+      "title": "Expert CNC Part Production",
+      "button": "EXPLORE NOW"
+    },
+    "CounterSection": {
+      "title": "Some Numbers",
+      "des": "Our story in numbers",
+      "Counters": {
+        "counter1": {
+          "countNumber": "3000 +",
+          "name": "Satisfied Clients"
+        },
+        "counter2": {
+          "countNumber": "5000 +",
+          "name": "Projects Completed"
+        },
+        "counter3": {
+          "countNumber": "10 +",
+          "name": "Awards Earned"
+        },
+        "counter4": {
+          "countNumber": "12 +",
+          "name": "Content Created"
+        }
+      }
+    },
+    "HowWork": {
+      "title": "How it Works",
+      "WorksList": {
+        "work1": {
+          "id": 1,
+          "title": "Project Consultation & Quotation",
+          "description": "We start by discussing your specific needs—materials, design, and deadlines—to provide a clear, competitive quote tailored to your project."
+        },
+        "work2": {
+          "id": 2,
+          "title": "Precision CNC Machining, Finishing & Quality Control",
+          "description": "With advanced CNC technology, we create precise parts for any project, whether it’s a prototype or a large production run. We add professional finishes, like anodizing and electroplating, and follow up with detailed quality checks to ensure everything meets your standards."
+        },
+        "work3": {
+          "id": 3,
+          "title": "Thorough Final Inspections",
+          "description": "Before shipping, each part is carefully inspected for accuracy and finish. We’re committed to delivering only the highest quality, so you get exactly what you need."
+        },
+        "work4": {
+          "id": 4,
+          "title": "Secure Packaging, Worldwide Delivery & Dedicated Support",
+          "description": "We securely package your parts to keep them safe during shipping and send them worldwide with tracking. Our support doesn’t stop there—we’re here to assist with any needs after delivery to make sure you’re fully satisfied with every order."
+        }
+      }
+    },
+    "FeaturedVideo": {
+      "title": "Featured Videos"
+    },
+    "Testimonial": {
+      "title": "What our customers say?",
+      "description": "Hear from our satisfied customers and clients.",
+      "testimonialData": {
+        "testimonial1": {
+          "id": 1,
+          "name": "Ethan",
+          "des": "“The precision and efficiency of their CNC machining really impressed me. They handled complex parts exactly to spec, and the turnaround was quick. If you need high-quality machining, I highly recommend them!",
+          "rating": 4.9,
+          "imgUrl": "img1",
+          "link": "/"
+        },
+        "testimonial2": {
+          "id": 2,
+          "name": "Liam",
+          "des": "“Their customer service was exceptional from start to finish. They kept me updated every step of the way, and their dedication to customer satisfaction really stood out.",
+          "rating": 4.9,
+          "imgUrl": "img1",
+          "link": "/"
+        },
+        "testimonial3": {
+          "id": 3,
+          "name": "Nathaniel",
+          "des": "“I’ve partnered with them for years, and they’re consistently reliable. They always deliver top-quality parts on time, even with challenging projects.",
+          "rating": 4.9,
+          "imgUrl": "img1",
+          "link": "/"
+        },
+        "testimonial4": {
+          "id": 4,
+          "name": "Christopher",
+          "des": "“For the quality they offer, the pricing is fantastic. They don’t cut corners, and I know I can trust them for future projects. Great value for the service.",
+          "rating": 4.9,
+          "imgUrl": "img1",
+          "link": "/"
+        },
+        "testimonial5": {
+          "id": 5,
+          "name": "Isaac",
+          "des": "“The Wintec team is truly innovative. They came up with creative solutions to some challenging designs, and I appreciate their expertise and commitment to doing the job right.",
+          "rating": 4.9,
+          "imgUrl": "img1",
+          "link": "/"
+        }
+      }
+    },
+    "FAQ": {
+      "title": "Frequently Asked Questions",
+      "QuestionList": {
+        "question1": {
+          "title": "What is CNC machining?",
+          "dis": "CNC machining is a manufacturing process that uses computer-controlled machines to shape materials like metals and plastics. It involves interpreting digital designs and translating them into precise instructions for the machine's tools."
+        },
+        "question2": {
+          "title": "What are the common types of CNC machining?",
+          "dis": " Common types include milling, turning, Complex Mill Turning, and 5-axis Machining."
+        },
+        "question3": {
+          "title": "What materials can be used with CNC machining? ",
+          "dis": "CNC machining can be used on a wide range of materials, including metals (aluminum, steel, brass, etc.), plastics (ABS, nylon, polycarbonate, etc.), and composites."
+        },
+        "question4": {
+          "title": "How does the CNC machining process work?",
+          "dis": " The process involves creating a digital design, programming the CNC machine with instructions based on the design, setting up the machine with the appropriate tools and materials, and then allowing the machine to execute the program to shape the material."
+        },
+        "question5": {
+          "title": "What factors affect the cost of CNC machining? ",
+          "dis": "Factors that can affect cost include the material used, the complexity of the design, the quantity of parts needed, and the machining time required."
+        },
+        "question6": {
+          "title": "How can I ensure the quality of CNC machined parts?",
+          "dis": " Reputable CNC machining services have quality control measures in place to ensure the accuracy and precision of their work. It's also important to provide clear specifications and tolerances in your design."
+        },
+        "question7": {
+          "title": "Can CNC machining be used for prototyping or production?",
+          "dis": " CNC machining can be used for both prototyping and production, making it a flexible manufacturing process."
+        }
+      }
+    },
+    "ContactForm": {
+      "title": "Get in touch",
+      "description": "We invite you to connect with us! ",
+      "office": "Corporate office",
+      "social": "Let's connect. We are just a click away!",
+      "ContactInfo": {
+        "call": "call",
+        "wp": "What's App",
+        "mail": "Mail",
+        "address": "1st Floor, Building 7,Houhai Industrial Park, Loucun Community, Guangming New District, Shenzhen, China 518106"
+      }
+    },
+    "FindProduct": {
+      "title": "Find sustainable products that fit your life perfectly.",
+      "description": "customers in over 30 countries—let’s find what works for you!",
+      "button": "Browse Product"
+    }
+  },
+  "ServicePage": {
+    "title": "Products & services",
+    "Process": {
+      "section1": {
+        "title": "Processes",
+        "description": "By effectively combining our processes, we tailor solutions to your specific business goals, establishing a strong presence in the CNC machining industry.",
+        "list": {
+          "item1": "Milling",
+          "item2": "Drilling",
+          "item3": "Turning",
+          "item4": "Boring",
+          "item5": "Threading",
+          "item6": ""
+        },
+        "img": "img1"
+      },
+      "section2": {
+        "title": "Equipment",
+        "description": "Thanks to our advanced CNC milling machines, turning machines, machining centers, 3-axis machines, 4-axis machines, and 5-axis machines, we can create intricate shapes with efficiency, exceptional accuracy, and top-notch quality.",
+        "list": {
+          "item1": "CNC Milling Machines",
+          "item2": "CNC Turning Machines",
+          "item3": "CNC Machining Centers",
+          "item4": "3-Axis CNC Machines",
+          "item5": "4-Axis CNC Machines",
+          "item6": "5-Axis CNC Machines"
+        },
+        "img": "img2"
+      },
+      "section3": {
+        "title": "Materials",
+        "description": "Our range of CNC materials guarantees precision and flexibility for your projects, using high-quality metals, plastics, wood, and ceramics tailored to your requirements.",
+        "list": {
+          "item1": "Metals (Aluminum, Steel, Stainless Steel, Brass, Copper, Titanium)",
+          "item2": "Plastics (ABS, Nylon, Acrylic, Polyethylene, Polypropylene)",
+          "item3": "Wood",
+          "item4": "Ceramics",
+          "item5": "",
+          "item6": ""
+        },
+        "img": "img3"
+      },
+      "section4": {
+        "title": "Industries Served",
+        "description": "At wintec, we pride ourselves on offering CNC machining services that are as diverse as the businesses we serve. When it comes to your prototype CNC machining requirements, trust us to provide you with outstanding results that stand out from the ordinary.",
+        "list": {
+          "item1": "Aerospace",
+          "item2": "Automotive",
+          "item3": "Medical",
+          "item4": "Electronics",
+          "item5": "Energy",
+          "item6": "Manufacturing"
+        },
+        "img": "img4"
+      }
+    },
+    "FAQ": {
+      "title": "Frequently Asked Questions",
+      "QuestionList": {
+        "question1": {
+          "title": "What are the primary CNC machining processes?",
+          "description": "The primary CNC machining processes include:\n\n- CNC Milling: Used to shape workpieces by removing material with rotating cutting tools.\n- CNC Turning: Used to shape rotating workpieces by removing material with cutting tools.\n- 5-Axis Machining: It is a complex process that allows for machining parts from multiple angles."
+        },
+        "question2": {
+          "title": "What types of parts can be produced using CNC machining?",
+          "description": "CNC machining can produce a wide range of parts, including:\n\n- Mechanical components\n- Automotive parts\n- Aerospace components\n- Medical devices\n- Prototypes"
+        },
+        "question3": {
+          "title": "How does CNC machining compare to traditional machining methods?",
+          "description": "CNC machining offers several advantages over traditional methods, such as increased accuracy, reduced labor costs, and the ability to produce complex shapes."
+        },
+        "question4": {
+          "title": "Can you provide design services for my CNC machining project?",
+          "description": "wintec CNC machining service providers offer design and engineering services to help you develop your product idea."
+        },
+        "question5": {
+          "title": "What is the lead time for CNC machining projects?",
+          "description": "Lead times vary depending on factors such as part complexity, material availability, and queue length. It's best to discuss specific timelines with your service provider."
+        },
+        "question6": {
+          "title": "What is the cost of CNC machining services?",
+          "description": "The cost of CNC machining services depends on factors such as part complexity, material, machining time, and quantity. It's best to obtain quotes from multiple service providers."
+        },
+        "question7": {
+          "title": "Can I visit your facility to see the CNC machining process?",
+          "description": "wintec CNC machining service providers offer facility tours to give clients a firsthand look at their capabilities and processes."
+        },
+        "question8": {
+          "title": "What materials can be used with CNC machining?",
+          "description": "CNC machining can be used on a wide range of materials, including metals (aluminum, steel, brass, etc.), plastics (ABS, nylon, polycarbonate, etc.), and composites."
+        }
+      }
+    },
+    "Wintech": {
+      "title": "The wintec Standard",
+      "DataList": {
+        "item1": {
+          "id": 1,
+          "icon": "img1",
+          "title": "Quality",
+          "description": "Our inspection equipment—such as CMM, Linear Height, Projectors, thread gauges, and pin gauges—ensures the highest quality in every part we produce. We rigorously follow the ISO 9001 quality management system from material sourcing to machining and final inspection.",
+          "link": "/"
+        },
+        "item2": {
+          "id": 2,
+          "icon": "img2",
+          "title": "Certification",
+          "description": "Our quality management system is ISO 9001:2015 certified (Certificate No.: 91440300573109994L) and meets the rigorous standards of ISO 41888:2016 (Certificate No.:91440300573109994L). Both certifications are accredited by IAF and CNAS",
+          "link": "/"
+        },
+        "item3": {
+          "id": 3,
+          "icon": "img3",
+          "title": "Quality Documentation",
+          "description": "Upon request, we provide comprehensive quality documentation, including inspection reports, Certificates of Conformance, Material Certificates, and Finishing Test Reports, ensuring each part meets your exact specifications.",
+          "link": "/"
+        }
+      },
+      "button": "SEE OUR WORK"
+    },
+    "MachineCenter": {
+      "title": "Our CNC Machining Center",
+      "shortTitle": "Our Galley"
+    },
+    "ProcessSteps": {
+      "title": "Our Ordering Process",
+      "StepsList": {
+        "step1": {
+          "id": 1,
+          "title": "Get a Quote",
+          "description": "Upload your design file through our online quote system to receive a personalized quote."
+        },
+        "step2": {
+          "id": 2,
+          "title": "Order Placement",
+          "description": "Once specifications and pricing are confirmed, place your order and provide delivery details."
+        },
+        "step3": {
+          "id": 3,
+          "title": "Product Manufacturing",
+          "description": "We select the optimal production technique and materials to begin manufacturing promptly."
+        },
+        "step4": {
+          "id": 4,
+          "title": "Quality Inspection",
+          "description": "Every part undergoes a quality and functionality check to meet our standards."
+        },
+        "step5": {
+          "id": 5,
+          "title": "Shipping & Delivery",
+          "description": "Your order is securely packaged and shipped according to the selected delivery method."
+        }
+      },
+      "button": "START YOUR ORDER"
+    },
+    "GetStart": {
+      "title": "Let’s Get Started",
+      "button": "Get Instant Quote"
+    }
+  },
+  "AboutPage": {
+    "title": "About Us",
+    "WhoWeAre": {
+      "title": "Who We Are",
+      "des1": "Wintec Precision Machining Co., Ltd., located in Shenzhen, China, is an ISO 9001:2015 certified CNC parts manufacturer with over 10 years of expertise in high-precision CNC machining. Since 2006, we have been delivering quality machined parts to industries including electronics, medical devices, DC motors, automotive suspension, green energy, and hydraulics.",
+      "des2": "We specialize in CNC turning, CNC milling, complex mill-turning, and advanced 4- and 5-axis machining. Our expertise extends to working with a variety of materials, such as carbon steel, stainless steel, aluminum, copper, Delrin, and PEEK, to meet diverse client requirements. Equipped with more than 50 top-tier Japanese CNC machines, including Mazak, Fanuc, Citizen, and Brother, we can handle projects ranging from 2mm to 300mm in diameter.",
+      "des3": "To ensure ready-to-use parts with top-quality finishes, we offer a range of finishing options, including anodizing, electroplating, powder coating, and e-polishing. This allows us to meet the highest standards of precision and aesthetics for our clients.",
+      "des4": "Wintec’s mission is to lead the global CNC machining industry by providing high-quality, cost-effective solutions tailored to our customers’ diverse needs. We are committed to upholding exceptional quality standards, honoring commitments, investing in advanced technology, and achieving customer satisfaction, all while striving to operate responsibly and contribute to a sustainable future."
+    },
+    "WhatWeDo": {
+      "title": "What We Do?",
+      "description1": "At Wintec Precision Machining Co., Ltd., we specialize in delivering high-quality CNC machining solutions to meet diverse industry needs worldwide. With over a decade of experience, we provide a comprehensive suite of CNC machining services that emphasize quality, customization, and speed.",
+      "description2": "Our experienced team, advanced technology, state-of-the-art equipment, and strict management practices form the foundation of our company's growth and success. These elements, combined with our commitment to precision in CNC machining, have earned us the trust of our customers. We believe that through our ongoing dedication and pursuit of excellence, we can achieve mutual benefits and long-lasting success for both our company and our clients.",
+      "list": {
+        "para1": "We offer CNC turning, CNC milling, and advanced 4- and 5-axis machining. Our state-of-the-art equipment, including over 50 Japanese CNC machines like Mazak, Fanuc, and Citizen, ensures high precision and reliable performance for every part we produce.",
+        "para2": "Our expertise spans a wide range of materials, including carbon steel, stainless steel, aluminum, copper, Delrin, and PEEK, allowing us to meet specific client needs across electronics, medical devices, automotive, green energy, and hydraulics industries. We handle orders of any size, with no minimum order quantity (MOQ), providing flexibility and cost savings to our clients.",
+        "para3": "Quality is integral to our work. As an ISO 9001:2015-certified company, we maintain stringent quality control processes, including IQC, FAI, IPQC, and FI, ensuring each part meets rigorous international standards. We also offer comprehensive quality documentation, such as inspection reports and certificates, to guarantee compliance and reliability.",
+        "para4": "We partner with trusted subcontractors to provide full surface finishing options like anodizing, electroplating, powder coating, and e-polishing. This ensures that we deliver fully completed parts, ready for use, from prototyping to mass production.",
+        "para5": "With a strategic location near major shipping hubs, Wintec efficiently exports to Europe and North America, making us a trusted partner for international clients. Our global logistics experience and commitment to on-time delivery help us serve clients worldwide."
+      }
+    },
+    "Facilities": {
+      "title": "Facilities",
+      "Data": {
+        "item1": {
+          "id": 1,
+          "title": "Manufacturer",
+          "link": "/"
+        },
+        "item2": {
+          "id": 2,
+          "title": "Quality Guaranteed",
+          "link": "/"
+        },
+        "item3": {
+          "id": 3,
+          "title": "Short Turnaround Lead Time",
+          "link": "/"
+        },
+        "item4": {
+          "id": 4,
+          "title": "Cost Effective",
+          "link": "/"
+        }
+      }
+    },
+    "OurTeam": {
+      "title": "Our Team",
+      "teamMembers": {
+        "item1": {
+          "id": 1,
+          "name": "Arafat Jaman Chowdhury",
+          "post": "Engineer",
+          "exp": "08 years Experience",
+          "lang": "English, Hindi",
+          "address": "Badda, Bangladesh",
+          "edu": "United International University",
+          "link": "/"
+        },
+        "item2": {
+          "id": 2,
+          "name": "Arafat Jaman Chowdhury",
+          "post": "Engineer",
+          "exp": "08 years Experience",
+          "lang": "English, Hindi",
+          "address": "Badda, Bangladesh",
+          "edu": "United International University",
+          "link": "/"
+        },
+        "item3": {
+          "id": 3,
+          "name": "Arafat Jaman Chowdhury",
+          "post": "Engineer",
+          "exp": "08 years Experience",
+          "lang": "English, Hindi",
+          "address": "Badda, Bangladesh",
+          "edu": "United International University",
+          "link": "/"
+        },
+        "item4": {
+          "id": 4,
+          "name": "Arafat Jaman Chowdhury",
+          "post": "Engineer",
+          "exp": "08 years Experience",
+          "lang": "English, Hindi",
+          "address": "Badda, Bangladesh",
+          "edu": "United International University",
+          "link": "/"
+        },
+        "item5": {
+          "id": 5,
+          "name": "Arafat Jaman Chowdhury",
+          "post": "Engineer",
+          "exp": "08 years Experience",
+          "lang": "English, Hindi",
+          "address": "Badda, Bangladesh",
+          "edu": "United International University",
+          "link": "/"
+        },
+        "item6": {
+          "id": 6,
+          "name": "Arafat Jaman Chowdhury",
+          "post": "Engineer",
+          "exp": "08 years Experience",
+          "lang": "English, Hindi",
+          "address": "Badda, Bangladesh",
+          "edu": "United International University",
+          "link": "/"
+        }
+      }
+    },
+    "Certification": {
+      "title": "Certification & Awards"
+    }
+  },
+  "Portfolio": {
+    "title": "Portfolio",
+    "Photos": {
+      "title": "Portfolio",
+      "description": "Wintec Precision Machining delivers top-quality CNC machining services with unmatched precision. Our portfolio showcases a range of expertly crafted components designed to meet the high standards of diverse industries. Explore our products to see how our state-of-the-art equipment and skilled team bring each project to life with exceptional accuracy and reliability."
+    },
+    "Videos": {
+      "title": "Videos",
+      "description": "Wintec Precision Machining delivers top-quality CNC machining services with unmatched precision. Our portfolio showcases a range of expertly crafted components designed to meet the high standards of diverse industries. Explore our products to see how our state-of-the-art equipment and skilled team bring each project to life with exceptional accuracy and reliability."
+    }
+  },
+  "Blog": {
+    "title": "Win Tech Blog",
+    "description": "At Wintec Precision Machining, our blog is your go-to source for the latest in CNC machining and precision engineering. We’re committed to keeping you informed with practical, real-world insights into our services—CNC turning, milling, complex mill-turning, 5-axis machining, and surface finishing. Expect regular updates on industry advancements, project highlights, and hands-on tips, all aimed at showing you the impact of precision in every component we create. ",
+    "Subscribe": {
+      "title": "Subscribe to our newsletter.",
+      "description": "Join our community of over (5+ members) and stay updated on WINTEC’s latest developments and innovations. Receive exclusive insights each month!",
+      "button": "Subscribe "
+    },
+    "BlogDetail": {
+      "title": "Other Blogs"
+    }
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "ContactForm": {
+      "title": "Get in touch",
+      "description": "We invite you to connect with us! Whether you have questions, need more information about our services, or want to explore opportunities with WINTEC.",
+      "office": "Corporate office",
+      "social": "Let's connect. We are just a click away!",
+      "ContactInfo": {
+        "call": "call",
+        "wp": "What's App",
+        "mail": "Mail",
+        "address": "1st Floor, Building 7,Houhai Industrial Park, Loucun Community, Guangming New District, Shenzhen, China 518106"
+      }
+    }
+  }
+}

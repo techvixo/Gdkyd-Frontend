@@ -1,0 +1,212 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+html {
+  scroll-behavior: smooth !important;
+}
+body {
+  background-color: #FFFFFF;
+  /* background-color: #000000; */
+  margin: 0;
+  padding: 0;
+  color: #064a9b;
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #484848;
+}
+p {
+  color: #5c5c5c;
+}
+.main_container {
+  width: 90%;
+  max-width: 1240px !important;
+  margin: auto;
+}
+
+/*============== Navbar section code here ==================== */
+nav {
+  transition: background-color 0.3s ease;
+}
+.nav_shadow {
+  box-shadow: 0px 0px 9px 0px #1976D3;
+}
+.nav_logo_side {
+  /* width: 20%; */
+}
+.nav_right_side {
+  width: 20%;
+}
+.nav_manu li a {
+  transition: 0.5s;
+}
+.nav_manu li a:hover {
+  color: #1976D3;
+}
+.sub_nav_manu {
+  display: none;
+}
+.sub_nav_manu li:hover {
+  color: #1976D3;
+}
+.page_active {
+  border: 2px solid #1976D3;
+}
+.nav_manu li:hover .sub_nav_manu {
+  display: block;
+}
+.navber_border {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.403);
+}
+.mobile_sub_nav_menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+.language_select{
+  z-index: 50 !important;
+}
+.mobile_sub_nav_menu.open {
+  max-height: 500px; /* Adjust this value based on the content size */
+}
+/* Add arrow icon to the span */
+.arrow {
+  display: inline-block;
+  width: 10px; /* Adjust width as needed */
+  height: 10px; /* Adjust height as needed */
+  background-image: url("../../public/assets/down-arrow.png"); /* Or use an icon font */
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nav_manu li:hover .arrow {
+  background-image: url("../../public/assets/up-arrow.png"); /* Or change icon for hover state */
+}
+
+/* ====================================
+        Banner section code here   
+  ======================================  */
+#banner_slider {
+  height: 100vh;
+}
+#banner_section p {
+  font-family: Roboto;
+  /* font-size: 24px; */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.864px;
+}
+.blog_border{
+  border: 1px solid #064a9b;
+}
+@keyframes upAndDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+#icon {
+  animation: upAndDown 2s infinite ease-in-out;
+}
+#banner .slick-dots {
+  bottom: 40px !important;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+#banner .slick-dots li button:before {
+  font-family: "slick";
+  font-size: 15px;
+  line-height: 20px;
+  /* border: 1px solid white; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 13px;
+  height: 13px;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#banner .slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: white;
+}
+.contain.absolute.top-0.left-0.w-full.h-full {
+  background: linear-gradient(90deg, #064a9b, #00000026);
+}
+
+#custom_part{
+  /* height: 80vh; */
+   background-image: url('../../public/assets/home-img/custom-part-banner.png'); /* Or use an icon font */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+#find_product{
+  /* height: 80vh; */
+   background-image: linear-gradient(90deg, #0404048f, #0404048f), url('../../public/assets/home-img/find-product-bg.jpg'); /* Or use an icon font */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+  .collapse-title::after {
+    color: #1976D3 !important;
+    font-size: 20px;
+  }
+.testimonial_card{
+  border: 1.5px solid #E5E5E5;
+}
+#page_menu:nth-child(1) {
+border-left:  none !important;
+}
+ /*============================================================
+  <<<<<<<<<<<<< All media query css code  here  >>>>>>>>>>>>>>>
+ =============================================================*/
+ @media only screen and (max-width: 600px) {
+  .main_container {
+    width: 93%;
+    max-width: 1536px;
+    margin: auto;
+  }
+
+  #banner_slider {
+    height: 90vh;
+  }
+  #service_banner_section {
+    /* height: 90vh; */
+  }
+  /* .side_title{
+    font-size: 26px;
+    margin: 28px 0;
+  }
+  .slick-prev, .slick-next {
+    display: none !important;
+  }
+  .slick-prev {
+    display: none !important;
+  } */
+}
