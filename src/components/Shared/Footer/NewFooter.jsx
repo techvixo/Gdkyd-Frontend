@@ -271,13 +271,13 @@ const NewFooter = () => {
           © Copyright Wintec precision machining Co.,Ltd {currentYear} - All
           Rights Reserved.
         </p>
-        <p className="text-sm text-center text-secondary py-3 w-full">
+        <p className="text-sm  text-center text-[#d4d4d4] py-3 w-full">
           <a
             className="hover:underline"
             target="blank"
             href="https://www.gdkyd.com/"
           >
-            Designed and developed by @ ICP：粤ICP备2023126606号
+            ICP：粤ICP备2023126606号
           </a>
         </p>
       </div>

@@ -41,7 +41,7 @@ const CounterCard = ({ countNumber, name }) => {
      <h4 className="text-3xl md:text-5xl font-bold text-white">
         <CountUp duration={2.75} start={0} end={isVisible ? parseFloat(countNumber) : 0} />+
       </h4>
-      <p className='text-[#797979] text-sm md:text-base'>{name}</p>
+      <p className='text-[#d4d4d4] text-sm md:text-base'>{name}</p>
     </div>
   );
 };

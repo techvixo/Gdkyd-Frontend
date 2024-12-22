@@ -55,7 +55,7 @@ const Banner = ({ locale, data }) => {
                         />
                         <button
                           onClick={handleSearch}
-                          className="absolute top-0 right-0 w-24 md:w-36 h-full md:text-md rounded-r-2xl text-white bg-[#064a9b]"
+                          className="absolute top-0 right-0 w-24 md:w-36 h-full md:text-md rounded-r-2xl text-white bg-primary"
                         >
                           Search
                         </button>

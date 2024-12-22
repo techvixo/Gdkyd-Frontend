@@ -33,7 +33,7 @@ const CounterSection = () => {
             <h4 className="text-xl md:text-2xl font-semibold  text-white">
             {t("CounterSection.title")}
             </h4>
-            <p className="text-[#797979] text-sm md:text-base"> {t("CounterSection.des")}</p>
+            <p className="text-[#d4d4d4] text-sm md:text-base"> {t("CounterSection.des")}</p>
           </div>
          </div>
           {keys.map((key, i) => {
