@@ -1,9 +1,9 @@
 
-import img1 from "../../../../../public/assets/home-img/testimonial-img/client-img.png";
-import img2 from "../../../../../public/assets/home-img/testimonial-img/client-img.png";
-import img3 from "../../../../../public/assets/home-img/testimonial-img/client-img.png";
-import img4 from "../../../../../public/assets/home-img/testimonial-img/client-img.png";
-import img5 from "../../../../../public/assets/home-img/testimonial-img/client-img.png";
+import img1 from "../../../../../public/assets/home-img/testimonial-img/client-img.jpg";
+import img2 from "../../../../../public/assets/home-img/testimonial-img/client-img.jpg";
+import img3 from "../../../../../public/assets/home-img/testimonial-img/client-img.jpg";
+import img4 from "../../../../../public/assets/home-img/testimonial-img/client-img.jpg";
+import img5 from "../../../../../public/assets/home-img/testimonial-img/client-img.jpg";
 import TestimonialSlider from "./TestimonialSlider";
 import { useTranslations } from "next-intl";
 

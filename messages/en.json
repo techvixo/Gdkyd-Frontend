@@ -44,189 +44,203 @@
   "HomePage": {
     "title": "Home",
     "CncMachined": {
-      "title": "Top Quality CNC Machining Solutions"
+      "title": "Explore Our Top-Quality Machinery and Production Solutions"
     },
     "WhyChoose": {
-      "title": "Why Choose Us as Your Preferred CNC Machining Partner?",
+      "title": "Because Your Success is Our Priority",
       "Features": {
         "feature1": {
           "id": 1,
           "icon": "img1",
-          "title": "Commitment ",
-          "description": "We believe in building lasting relationships. Our team is dedicated to understanding your unique needs and challenges, working closely with you to provide the best possible solutions.",
+          "title": "Tailored Solutions for Your Needs ",
+          "description": "We design custom machinery to meet your specific business requirements, ensuring high precision, efficiency, and reliability in every production cycle.",
           "link": "/"
         },
         "feature2": {
           "id": 2,
           "icon": "img2",
-          "title": "Expertise",
-          "description": "With over a decade of industry experience, we have the skills and insight to handle complex projects across various sectors. Our seasoned experts bring precision and reliability to every job.",
+          "title": "Advanced Technology",
+          "description": "Our machinery integrates over 60 advanced control devices, optimizing your production line with the latest innovations for improved accuracy and reduced waste.",
           "link": "/"
         },
         "feature3": {
           "id": 3,
           "icon": "img3",
-          "title": "Tailored Solutions",
-          "description": "No project is too small or complex. Whether it’s a one-off prototype or a large production run, we adapt to your needs, ensuring the right solution for every project size.",
+          "title": "Industry Expertise",
+          "description": "With over 200 skilled professionals, our team has decades of experience manufacturing non-woven processing equipment, delivering solutions that meet modern industry demands.",
           "link": "/"
         },
         "feature4": {
           "id": 4,
           "icon": "img1",
-          "title": "Advanced Technology",
-          "description": "We invest in the latest CNC technology and equipment to stay at the forefront of machining. Our advanced capabilities mean you receive parts that are both precise and durable.",
+          "title": "Proven Quality",
+          "description": "Since 1999, we've provided durable, high-quality machinery for industries like healthcare, beauty, and hospitality, ensuring reliable performance and consistent results.",
           "link": "/"
         },
         "feature5": {
           "id": 5,
           "icon": "img2",
-          "title": "Responsive &Transparent Service",
-          "description": "We prioritize open communication and fast responses, keeping you informed at every stage of your project. You can count on us for timely updates and a commitment to delivering on schedule.",
+          "title": "Reliable After-Sales Support",
+          "description": "We offer 24/7 support, including installation, training, and maintenance, ensuring your equipment operates efficiently and remains in peak condition throughout its lifecycle.",
           "link": "/"
         },
         "feature6": {
           "id": 6,
           "icon": "img3",
-          "title": "Cost-Effective Manufacturing:",
-          "description": "By leveraging advanced technology and efficient production methods, we offer high-quality parts at competitive prices. Our focus on reducing waste and optimizing processes ensures cost savings without sacrificing quality.",
+          "title": "Cost-Effective Manufacturing",
+          "description": "Our machines combine high performance and affordability, delivering superior results without compromising your budget or operational efficiency.",
           "link": "/"
         }
       },
       "button": "SEE OUR WORK"
     },
     "CustomPart": {
-      "title": "Expert CNC Part Production",
+      "title": "Instead of Expert CNC Part Production See Our Machines in Action",
       "button": "EXPLORE NOW"
     },
-    "CounterSection": {
-      "title": "Some Numbers",
-      "des": "Our story in numbers",
-      "Counters": {
-        "counter1": {
-          "countNumber": "3000 +",
-          "name": "Satisfied Clients"
-        },
-        "counter2": {
-          "countNumber": "5000 +",
-          "name": "Projects Completed"
-        },
-        "counter3": {
-          "countNumber": "10 +",
-          "name": "Awards Earned"
-        },
-        "counter4": {
-          "countNumber": "12 +",
-          "name": "Content Created"
-        }
+   "CounterSection": {
+    "title": "Some Numbers",
+    "des": "Our story in numbers",
+    "Counters": {
+      "counter1": {
+        "countNumber": "12500 +",
+        "name": "Satisfied Clients"
+      },
+      "counter2": {
+        "countNumber": "10500 +",
+        "name": "Projects Completed"
+      },
+      "counter3": {
+        "countNumber": "1000 +",
+        "name": "Awards Earned"
+      },
+      "counter4": {
+        "countNumber": "1500 +",
+        "name": "Content Pieces Created"
       }
-    },
-    "HowWork": {
-      "title": "How it Works",
-      "WorksList": {
-        "work1": {
-          "id": 1,
-          "title": "Project Consultation & Quotation",
-          "description": "We start by discussing your specific needs—materials, design, and deadlines—to provide a clear, competitive quote tailored to your project."
-        },
-        "work2": {
-          "id": 2,
-          "title": "Precision CNC Machining, Finishing & Quality Control",
-          "description": "With advanced CNC technology, we create precise parts for any project, whether it’s a prototype or a large production run. We add professional finishes, like anodizing and electroplating, and follow up with detailed quality checks to ensure everything meets your standards."
-        },
-        "work3": {
-          "id": 3,
-          "title": "Thorough Final Inspections",
-          "description": "Before shipping, each part is carefully inspected for accuracy and finish. We’re committed to delivering only the highest quality, so you get exactly what you need."
-        },
-        "work4": {
-          "id": 4,
-          "title": "Secure Packaging, Worldwide Delivery & Dedicated Support",
-          "description": "We securely package your parts to keep them safe during shipping and send them worldwide with tracking. Our support doesn’t stop there—we’re here to assist with any needs after delivery to make sure you’re fully satisfied with every order."
-        }
+    }
+  },
+   "HowWork": {
+    "title": "How Our Custom Machinery Solutions Work",
+    "WorksList": {
+      "work1": {
+        "id": 1,
+        "title": "Initial Consultation",
+        "description": "Share your needs and challenges with us, and we will propose the best machinery solution tailored to your business."
+      },
+      "work2": {
+        "id": 2,
+        "title": "Custom Design",
+        "description": "We have our own R&D team, and can make the machine base on customer requirements. Our engineers create detailed specifications, focusing on efficiency, precision, and ease of use."
+      },
+      "work3": {
+        "id": 3,
+        "title": "Manufacturing",
+        "description": "Using state-of-the-art equipment, we manufacture your machines to the highest quality standards."
+      },
+      "work4": {
+        "id": 4,
+        "title": "Testing & Quality Control",
+        "description": "Every machine undergoes rigorous testing to ensure it performs flawlessly under real-world conditions."
+      },
+      "work5": {
+        "id": 5,
+        "title": "Installation & Training",
+        "description": "Our team installs the machinery at your facility and provides hands-on training to ensure your team can operate it effectively."
+      },
+      "work6": {
+        "id": 6,
+        "title": "Ongoing Support",
+        "description": "With our after-sales services, including maintenance and troubleshooting, we ensure your machines continue to perform at peak levels."
       }
-    },
+    }
+  },
     "FeaturedVideo": {
-      "title": "Featured Videos"
+      "title": "Explore Our Advanced Non-Woven Machinery in Action"
     },
-    "Testimonial": {
-      "title": "What our customers say?",
-      "description": "Hear from our satisfied customers and clients.",
-      "testimonialData": {
-        "testimonial1": {
-          "id": 1,
-          "name": "Ethan",
-          "des": "“The precision and efficiency of their CNC machining really impressed me. They handled complex parts exactly to spec, and the turnaround was quick. If you need high-quality machining, I highly recommend them!",
-          "rating": 4.9,
-          "imgUrl": "img1",
-          "link": "/"
-        },
-        "testimonial2": {
-          "id": 2,
-          "name": "Liam",
-          "des": "“Their customer service was exceptional from start to finish. They kept me updated every step of the way, and their dedication to customer satisfaction really stood out.",
-          "rating": 4.9,
-          "imgUrl": "img1",
-          "link": "/"
-        },
-        "testimonial3": {
-          "id": 3,
-          "name": "Nathaniel",
-          "des": "“I’ve partnered with them for years, and they’re consistently reliable. They always deliver top-quality parts on time, even with challenging projects.",
-          "rating": 4.9,
-          "imgUrl": "img1",
-          "link": "/"
-        },
-        "testimonial4": {
-          "id": 4,
-          "name": "Christopher",
-          "des": "“For the quality they offer, the pricing is fantastic. They don’t cut corners, and I know I can trust them for future projects. Great value for the service.",
-          "rating": 4.9,
-          "imgUrl": "img1",
-          "link": "/"
-        },
-        "testimonial5": {
-          "id": 5,
-          "name": "Isaac",
-          "des": "“The Wintec team is truly innovative. They came up with creative solutions to some challenging designs, and I appreciate their expertise and commitment to doing the job right.",
-          "rating": 4.9,
-          "imgUrl": "img1",
-          "link": "/"
-        }
+   "Testimonial": {
+    "title": "Hear From Satisfied Clients About Our Machinery Solutions",
+    "description": "Hear from our satisfied customers and clients.",
+    "testimonialData": {
+      "testimonial1": {
+        "id": 1,
+        "name": "John Li",
+        "des": "“The machinery from KYD has helped us streamline production and significantly improve product quality. Their custom solutions truly set them apart in the industry.”",
+        "rating": 4.9,
+        "imgUrl": "img1",
+        "link": "/"
+      },
+      "testimonial2": {
+        "id": 2,
+        "name": "Alice Wang",
+        "des": "“We’ve been using KYD’s non-woven fabric machines for several years, and the performance and durability have consistently exceeded our expectations. Their support team is always ready to assist with any questions.”",
+        "rating": 4.9,
+        "imgUrl": "img1",
+        "link": "/"
+      },
+      "testimonial3": {
+        "id": 3,
+        "name": "Robert Chen",
+        "des": "“KYD’s machines have transformed our operations, cutting down on waste and boosting our efficiency. The installation and training process was smooth, and the equipment has proven incredibly reliable.”",
+        "rating": 4.9,
+        "imgUrl": "img1",
+        "link": "/"
+      },
+      "testimonial4": {
+        "id": 4,
+        "name": "Liang Zhang",
+        "des": "“Our company’s production line has seen remarkable improvements thanks to KYD’s machines. Their team took time to understand our needs, delivering a solution that has optimized our workflow and increased output.”",
+        "rating": 4.9,
+        "imgUrl": "img1",
+        "link": "/"
+      },
+      "testimonial5": {
+        "id": 5,
+        "name": "Mei Ling",
+        "des": "“KYD’s after-sales support is outstanding. They provided comprehensive training, and their prompt response times have kept our operations running smoothly.”",
+        "rating": 4.9,
+        "imgUrl": "img1",
+        "link": "/"
       }
-    },
-    "FAQ": {
-      "title": "Frequently Asked Questions",
-      "QuestionList": {
-        "question1": {
-          "title": "What is CNC machining?",
-          "dis": "CNC machining is a manufacturing process that uses computer-controlled machines to shape materials like metals and plastics. It involves interpreting digital designs and translating them into precise instructions for the machine's tools."
-        },
-        "question2": {
-          "title": "What are the common types of CNC machining?",
-          "dis": " Common types include milling, turning, Complex Mill Turning, and 5-axis Machining."
-        },
-        "question3": {
-          "title": "What materials can be used with CNC machining? ",
-          "dis": "CNC machining can be used on a wide range of materials, including metals (aluminum, steel, brass, etc.), plastics (ABS, nylon, polycarbonate, etc.), and composites."
-        },
-        "question4": {
-          "title": "How does the CNC machining process work?",
-          "dis": " The process involves creating a digital design, programming the CNC machine with instructions based on the design, setting up the machine with the appropriate tools and materials, and then allowing the machine to execute the program to shape the material."
-        },
-        "question5": {
-          "title": "What factors affect the cost of CNC machining? ",
-          "dis": "Factors that can affect cost include the material used, the complexity of the design, the quantity of parts needed, and the machining time required."
-        },
-        "question6": {
-          "title": "How can I ensure the quality of CNC machined parts?",
-          "dis": " Reputable CNC machining services have quality control measures in place to ensure the accuracy and precision of their work. It's also important to provide clear specifications and tolerances in your design."
-        },
-        "question7": {
-          "title": "Can CNC machining be used for prototyping or production?",
-          "dis": " CNC machining can be used for both prototyping and production, making it a flexible manufacturing process."
-        }
+    }
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "QuestionList": {
+      "question1": {
+        "title": "What industries do you serve?",
+        "dis": "We serve a wide range of industries, including healthcare (medical masks), beauty (life products), hospitality (hotel and aviation products), labor protection, and more. Our machines are versatile and customizable to meet specific needs across various sectors."
+      },
+      "question2": {
+        "title": "How do I get a quote for a custom machine?",
+        "dis": "Simply contact us with your machine specifications, and our team will assess your needs and provide a personalized quote based on your requirements, including production capacity, customization, and features."
+      },
+      "question3": {
+        "title": "What is the lead time for manufacturing and delivery?",
+        "dis": "Lead time typically ranges from 4 to 6 weeks, depending on the complexity and level of customization required for the machinery. We work to ensure timely production and delivery to meet your operational needs."
+      },
+      "question4": {
+        "title": "Do you offer installation and training?",
+        "dis": "Yes, we provide full installation services at your site, ensuring that your machinery is set up correctly. We also offer hands-on training for your team, ensuring they are proficient in operating and maintaining the equipment."
+      },
+      "question5": {
+        "title": "What kind of after-sales support do you provide?",
+        "dis": "Our after-sales services include ongoing technical support, regular maintenance, and access to spare parts to ensure your machinery operates smoothly. Typically, our machines come with a 1-year warranty for peace of mind."
+      },
+      "question6": {
+        "title": "Can I get a machine tailored to my specific production requirements?",
+        "dis": "Absolutely! We specialize in custom-designed machinery. Our experienced engineers will work closely with you to develop a machine that meets your precise production requirements, ensuring maximum efficiency and performance."
+      },
+      "question7": {
+        "title": "What materials are compatible with your machines?",
+        "dis": "Our machines are designed to handle a variety of non-woven fabrics, including those used in medical, industrial, and consumer applications. We can provide more details based on your specific material needs."
+      },
+      "question8": {
+        "title": "Do you offer financing or payment plans?",
+        "dis": "We understand that investing in machinery can be a significant decision. While we don’t directly offer financing, we are happy to assist you in exploring financing options through third-party providers."
       }
-    },
+    }
+  },
     "ContactForm": {
       "title": "Get in touch",
       "description": "We invite you to connect with us! ",

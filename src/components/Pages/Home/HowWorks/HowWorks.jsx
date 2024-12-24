@@ -6,7 +6,7 @@ import Image from "next/image";
 const HowWorks = () => {
  
   const t = useTranslations('HomePage');
-  const keys = ['work1', 'work2', 'work3', 'work4'];
+  const keys = ['work1', 'work2', 'work3', 'work4', 'work5', 'work6'];
   return (
     <div className="py-3 md:py-5 ">
       <div className="main_container">

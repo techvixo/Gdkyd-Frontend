@@ -7,7 +7,7 @@ import getBanners from "../../lib/getBanner"
 import { BASEURL } from "../../../Constant";
 export const metadata = {
   title: "KYD - Portfolio",
-  description: "Best machine company in china",
+  description: "Expert Manufacturer of Non-Woven Processing Equipment | Guangdong KYD Precision Machinery Co., Ltd.",
 };
 export default async function Page() {
   const banner = await getBanners("portfolio")

@@ -9,7 +9,7 @@ const FeaturedVideoShow = ({ locale, videos }) => {
     <div className="py-3 md:py-5">
       <div className="main_container">
         <div>
-          <h2 className="text-center text-2xl md:text-3xl font-bold text-[#070F11] my-4 md:my-7">
+          <h2 className="text-center md:w-3/5 mx-auto text-2xl md:text-3xl font-bold text-[#070F11] my-4 md:my-7">
             {t(`FeaturedVideo.title`)}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">

@@ -88,7 +88,7 @@ const CngMachines = ({ machines, locale }) => {
   return (
     <div className="my-5 md:my-10">
       <div className="main_container relative pb-6 md:pb-10">
-        <h2 className="text-center text-2xl md:text-3xl font-bold text-[#070F11] my-4 md:my-7">
+        <h2 className="text-center md:w-1/2 mx-auto text-2xl md:text-3xl font-bold text-[#070F11] my-4 md:my-7">
           {t(`CncMachined.title`)}
         </h2>
         <Slider {...settings}>

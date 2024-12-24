@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 
 const FAQ = () => {
   const t = useTranslations('HomePage');
-  const keys = ['question1', 'question2', 'question3', 'question4', 'question5', 'question6', 'question7'];
+  const keys = ['question1', 'question2', 'question3', 'question4', 'question5', 'question6', 'question7', 'question8'];
   return (
     <section id="faq_section" className="">
       <div className="main_container bg-white py-5 md:py-10 rounded-md shadow-md">

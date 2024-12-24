@@ -9,8 +9,8 @@ import SocialIcons from "../components/Shared/SocialIcons/SocialIcons";
 import { Toaster } from "react-hot-toast";
 
 export const metadata = {
-  title: "KYD - Home",
-  description: "Best machine company in china",
+  title: "Guangdong KYD Precision Machinery Co., Ltd.",
+  description: "Expert Manufacturer of Non-Woven Processing Equipment | Guangdong KYD Precision Machinery Co., Ltd.",
 };
 
 export default async function RootLayout({ children }) {

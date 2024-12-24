@@ -12,7 +12,7 @@ import getBanners from "../../lib/getBanner"
 import { getLocale } from "next-intl/server";
 export const metadata = {
   title: "KYD - Services",
-  description: "Best machine company in china",
+  description: "Expert Manufacturer of Non-Woven Processing Equipment | Guangdong KYD Precision Machinery Co., Ltd.",
 };
 export default async function Page() {
   const allProducts = await getProducts()

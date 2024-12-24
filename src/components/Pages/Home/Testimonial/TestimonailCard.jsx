@@ -41,7 +41,7 @@ const TestimonialCard = ({ name, des, rating, imgUrl }) => {
               width={100}
               src={imgUrl}
               alt={name}
-              className="w-full blur-sm rounded-full"
+              className="w-full rounded-full"
             />
           </div>
         </div>
