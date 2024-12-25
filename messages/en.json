@@ -47,7 +47,7 @@
       "title": "Explore Our Top-Quality Machinery and Production Solutions"
     },
     "WhyChoose": {
-      "title": "Because Your Success is Our Priority",
+      "title": "Why Choose Us: Because Your Success is Our Priority",
       "Features": {
         "feature1": {
           "id": 1,
@@ -95,7 +95,7 @@
       "button": "SEE OUR WORK"
     },
     "CustomPart": {
-      "title": "Instead of Expert CNC Part Production See Our Machines in Action",
+      "title": "See Our Machines in Action",
       "button": "EXPLORE NOW"
     },
    "CounterSection": {
@@ -381,7 +381,7 @@
     },
     "MachineCenter": {
       "title": "Our CNC Machining Center",
-      "shortTitle": "Our Galley"
+      "shortTitle": "Our Gallery"
     },
     "ProcessSteps": {
       "title": "Our Ordering Process",

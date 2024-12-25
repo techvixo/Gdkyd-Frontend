@@ -9,10 +9,11 @@ import getBanners from "../../../lib/getBanner";
 import getHomePageData from "../../../lib/getHomePageData";
 import { getLocale } from "next-intl/server";
 import { BASEURL } from "../../../../Constant";
+import getVideos from "../../../lib/getVideos";
 
 export default async function Page() {
   const banner = await getBanners("portfolio")
-  const videos = await getHomePageData();
+  const videos = await getVideos();
   const locale = await getLocale();
   const menus = [
     {

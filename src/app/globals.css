@@ -159,8 +159,7 @@ nav {
 }
 
 #custom_part{
-  /* height: 80vh; */
-   background-image: url('../../public/assets/home-img/custom-part-banner.png'); /* Or use an icon font */
+   background-image: url('../../public/assets/home-img/custom-part-banner.png'); 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
