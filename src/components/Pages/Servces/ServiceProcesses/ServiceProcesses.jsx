@@ -1,9 +1,9 @@
 "use client";
 import { useTranslations } from "next-intl";
-import img1 from "../../../../../public/assets/services/processed/process copy.jpg";
-import img2 from "../../../../../public/assets/services/processed/Equipment copy.jpg";
-import img3 from "../../../../../public/assets/services/processed/product copy.jpg";
-import img4 from "../../../../../public/assets/services/processed/industry-serve copy.jpg";
+import img1 from "../../../../../public/assets/services/processed/1.jpg";
+import img2 from "../../../../../public/assets/services/processed/2.jpg";
+import img3 from "../../../../../public/assets/services/processed/3.jpg";
+import img4 from "../../../../../public/assets/services/processed/4.jpg";
 import Image from "next/image";
 
 const ServiceProcesses = () => {
@@ -38,13 +38,13 @@ const ServiceProcesses = () => {
                 <h2 className="text-2xl font-bold my-2 md:my-3 text-secondary">
                 {t(`Process.${section}.title`)}
                 </h2>
-                <ul className="flex flex-col gap-1 md:gap-2 ml-2 md:ml-4">
+                {/* <ul className="flex flex-col gap-1 md:gap-2 ml-2 md:ml-4">
                   {list.map((item, idx) => (
                     <li className="text-sm md:text-base" key={idx}>
                       {t(`Process.${section}.list.${item}`)}
                     </li>
                   ))}
-                </ul>
+                </ul> */}
                 <p className="my-2 md:my-4"> {t(`Process.${section}.description`)}</p>
               </div>
             </div>

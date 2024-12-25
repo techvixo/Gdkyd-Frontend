@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 // import worksImg from "../../../../../public/assets/home-img/work-img/work-img.png";
-import worksImg from "../../../../../public/assets/home-img/work-img/location.jpg";
+import worksImg from "../../../../../public/assets/home-img/work-img/location.webp";
 import Image from "next/image";
 
 const HowWorks = () => {

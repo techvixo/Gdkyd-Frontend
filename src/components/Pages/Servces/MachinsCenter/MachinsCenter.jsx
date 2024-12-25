@@ -8,13 +8,12 @@ import img7 from "../../../../../public/assets/services/machine/7.jpg";
 import img8 from "../../../../../public/assets/services/machine/8.jpg";
 import img9 from "../../../../../public/assets/services/machine/9.jpg";
 import img10 from "../../../../../public/assets/services/machine/10.jpg";
-import img11 from "../../../../../public/assets/services/machine/11.jpg";
 import MachineCenterSlider from "./MachineCenterSlider";
 import { useTranslations } from "next-intl";
 
 const MachinesCenter = () => {
   const t = useTranslations("ServicePage");
-  const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11];
+  const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
 
   return (
     <MachineCenterSlider
