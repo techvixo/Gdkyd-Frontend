@@ -129,7 +129,7 @@ const NewFooter = () => {
                   <MdOutlineEmail />
                 </span>
                 <span className="lowercase text-xs md:text-sm">
-                  marketing@wintec-machining.com
+                  kyd@kuaiyuda.com
                 </span>
               </p>
             </div>

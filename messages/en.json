@@ -250,7 +250,7 @@
         "call": "call",
         "wp": "What's App",
         "mail": "Mail",
-        "address": "1st Floor, Building 7,Houhai Industrial Park, Loucun Community, Guangming New District, Shenzhen, China 518106"
+        "address": "No.321 Dongshen Road, Tangxia Town, Dongguan City, Guangdong Province"
       }
     },
     "FindProduct": {
@@ -510,29 +510,29 @@
     }
   },
   "Blog": {
-    "title": "Win Tech Blog",
-    "description": "At Wintec Precision Machining, our blog is your go-to source for the latest in CNC machining and precision engineering. We’re committed to keeping you informed with practical, real-world insights into our services—CNC turning, milling, complex mill-turning, 5-axis machining, and surface finishing. Expect regular updates on industry advancements, project highlights, and hands-on tips, all aimed at showing you the impact of precision in every component we create. ",
+    "title": " Your Guide to Non-Woven Machinery and Beyond",
+    "description": "Welcome to KYD’s blog, where we share practical tips, industry news, and behind-the-scenes insights about non-woven machinery. Whether it’s learning about the latest advancements in mask-making technology, exploring sustainable packaging solutions, or understanding how automation can streamline your operations, we’re here to keep you informed. Check back regularly for updates and discover how KYD is helping businesses innovate and grow with reliable machinery solutions.",
     "Subscribe": {
       "title": "Subscribe to our newsletter.",
-      "description": "Join our community of over (5+ members) and stay updated on WINTEC’s latest developments and innovations. Receive exclusive insights each month!",
+      "description": "Join our growing community and stay updated on KYD’s latest innovations and industry insights. Sign up now to receive exclusive updates straight to your inbox!",
       "button": "Subscribe "
     },
     "BlogDetail": {
-      "title": "Other Blogs"
+      "title": "Other News"
     }
   },
   "Contact": {
     "title": "Contact Us",
     "ContactForm": {
       "title": "Get in touch",
-      "description": "We invite you to connect with us! Whether you have questions, need more information about our services, or want to explore opportunities with WINTEC.",
+      "description": "Have questions or need more details about KYD’s machinery? Contact us today—we’re here to help you find the right solution for your business.",
       "office": "Corporate office",
       "social": "Let's connect. We are just a click away!",
       "ContactInfo": {
         "call": "call",
         "wp": "What's App",
         "mail": "Mail",
-        "address": "1st Floor, Building 7,Houhai Industrial Park, Loucun Community, Guangming New District, Shenzhen, China 518106"
+        "address": "No.321 Dongshen Road, Tangxia Town, Dongguan City, Guangdong Province"
       }
     }
   }

@@ -75,16 +75,16 @@ const Navbar = ({ allCategories, local }) => {
               <span className="">
                 <BsTelephonePlus />
               </span>
-              <span>+86-0755-86372308</span>
+              <span>+86-13902617335</span>
             </a>
             <a
-              href="mailto:marketing@wintec-machining.com"
+              href="mailto:kyd@kuaiyuda.com"
               className="flex text-sm hover:underline  hover:text-secondary transition items-center gap-2 text-white"
             >
               <span className="">
                 <TfiEmail />
               </span>
-              <span>marketing@wintec-machining.com</span>
+              <span>kyd@kuaiyuda.com</span>
             </a>
           </div>
           <div className="flex items-center justify-end gap-3">

@@ -3,8 +3,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlineMailOutline } from "react-icons/md";
-
-import { FaYoutube } from "react-icons/fa6";
+import { IoLogoTiktok } from "react-icons/io5";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -25,7 +24,7 @@ const ContactBox = () => {
             <div className="border-b-2 py-2 md:py-4">
               <p>
               {t(`ContactForm.description`)}
-                <span className="text-secondary font-semibold">WINTECH</span>
+                <span className="text-secondary font-semibold">KYD</span>
               </p>
             </div>
             <h6 className="text-md md:text-lg font-semibold text-[#333333] my-2 md:my-5">
@@ -39,7 +38,7 @@ const ContactBox = () => {
                   </span>
                 </p>
                 <p>
-                {t(`ContactForm.ContactInfo.call`)} : <span className="font-semibold">+86-0755-86372308</span>
+                {t(`ContactForm.ContactInfo.call`)} : <span className="font-semibold">+86-13902617335</span>
                 </p>
               </div>
               <div className="flex items-center gap-2">
@@ -49,7 +48,7 @@ const ContactBox = () => {
                   </span>
                 </p>
                 <p>
-                {t(`ContactForm.ContactInfo.wp`)} : <span className="font-semibold">+8618018740613</span>
+                {t(`ContactForm.ContactInfo.wp`)} : <span className="font-semibold">+86-13902617335                </span>
                 </p>
               </div>
               <div className="flex items-center gap-2">
@@ -61,7 +60,7 @@ const ContactBox = () => {
                 <p>
                 {t(`ContactForm.ContactInfo.mail`)} :{" "}
                   <span className="font-semibold">
-                  marketing@wintec-machining.com
+                  kyd@kuaiyuda.com
                   </span>
                 </p>
               </div>
@@ -72,7 +71,7 @@ const ContactBox = () => {
                   </span>
                 </p>
                 <p>
-                  WINTEC :{" "}
+                KYD :{" "}
                   <span className="font-semibold">
                   {t(`ContactForm.ContactInfo.address`)}
                   </span>
@@ -86,35 +85,35 @@ const ContactBox = () => {
             <div className="flex items-center text-md md:text-2xl gap-3 md:gap-6 text-black my-3">
               <a
                 target="blank"
-                href="https://x.com/WintecMachining"
+                href="https://x.com/KYD_Precision"
                 className=" "
               >
                 <FaSquareXTwitter />
               </a>
               <a
                 target="blank"
-                href="https://www.facebook.com/share/12Jp4VpTPYm/?mibextid=kFxxJD"
+                href="https://www.facebook.com/guangdongkyd"
                 className=" "
               >
                 <FaFacebookF />
               </a>
               <a
                 target="blank"
-                href="https://www.linkedin.com/company/wintec-precision-machining-co--ltd/mycompany/"
+                href="https://www.linkedin.com/company/guangdong-kyd-medical-mask-machinery/"
                 className=" "
               >
                 <FaLinkedinIn />
               </a>
               <a
                 target="blank"
-                href="https://youtube.com/@wintec-machining?si=3QVzwdcA5bKh0oPk"
+                href="https://www.tiktok.com/@kyd_precision_machinery"
                 className="text-black "
               >
-                <FaYoutube />
+               <IoLogoTiktok />
               </a>
               <a
                 target="blank"
-                href="https://wa.me/+8618018740613"
+                href="https://wa.me/+86-13902617335"
                 className=""
               >
                 <RiWhatsappFill />

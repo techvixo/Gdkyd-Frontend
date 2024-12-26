@@ -251,7 +251,7 @@
         "call": "电话",
         "wp": "WhatsApp",
         "mail": "邮件",
-        "address": "1st Floor, Building 7,Houhai Industrial Park, Loucun Community, Guangming New District, Shenzhen, China 518106"
+        "address": "No.321 Dongshen Road, Tangxia Town, Dongguan City, Guangdong Province"
       }
     },
     "FindProduct": {
@@ -510,30 +510,30 @@
       "description": "Wintec 精密机械提供高质量的 CNC 加工服务，具有无与伦比的精度。我们的作品集中展示了一系列精心制作的组件，旨在满足各种行业的高标准。探索我们的产品，了解我们的先进设备和专业团队如何以卓越的准确性和可靠性将每个项目变为现实。"
     }
   },
-  "Blog": {
-    "title": "赢科技博客",
-    "description": "在 Wintec Precision Machining，我们的博客是您了解 CNC 加工和精密工程最新资讯的首选来源。我们致力于为您提供有关我们服务的实用、真实见解 — CNC 车削、铣削、复杂铣削车削、5 轴加工和表面精加工。我们会定期更新行业进展、项目亮点和实践技巧，旨在向您展示我们制造的每个组件的精度影响。",
+"Blog": {
+    "title": "您的无纺布机械及更多指南",
+    "description": "欢迎来到KYD的博客，我们在这里分享关于无纺布机械的实用技巧、行业新闻和幕后见解。无论是了解口罩制造技术的最新进展，探索可持续包装解决方案，还是了解如何通过自动化简化操作，我们都致力于为您提供信息。请定期查看更新，发现KYD如何通过可靠的机械解决方案帮助企业创新和发展。",
     "Subscribe": {
       "title": "订阅我们的新闻通讯。",
-      "description": "加入我们由超过（5+ 名成员）组成的社区，随时了解 WINTEC 的最新动态和创新。每月获取独家见解！",
+      "description": "加入我们不断壮大的社区，随时了解KYD的最新创新和行业见解。立即注册，独家更新将直接发送到您的收件箱！",
       "button": "订阅"
     },
     "BlogDetail": {
-      "title": "其他博客"
+      "title": "其他新闻"
     }
   },
   "Contact": {
     "title": "联系我们",
     "ContactForm": {
       "title": "联系我们",
-      "description": "欢迎您与我们联系！无论您有疑问、需要更多有关我们服务的信息，还是想探索与 WINTEC 合作的机会。",
+      "description": "有关于KYD设备的问题或需要更多详细信息？今天就联系我们吧——我们随时为您提供适合您业务的解决方案。",
       "office": "公司办公室",
-      "social": "让我们联系吧。我们就在您的点击之间！",
+      "social": "让我们保持联系。我们触手可及！",
       "ContactInfo": {
         "call": "电话",
-        "wp": "WhatsApp",
-        "mail": "邮件",
-        "address": "1st Floor, Building 7,Houhai Industrial Park, Loucun Community, Guangming New District, Shenzhen, China 518106"
+        "wp": "微信",
+        "mail": "邮箱",
+        "address": "广东省东莞市塘厦镇东深路321号"
       }
     }
   }
