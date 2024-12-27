@@ -1,87 +1,96 @@
-import TopGap from "../../components/Shared/TopGap/TopGap"
+import TopGap from "../../components/Shared/TopGap/TopGap";
 
 const PrivacyPolicyPage = () => {
   return (
     <section className="pt-5">
       <TopGap></TopGap>
-      <div className="main_container  py-5 md:py-10">
+      <div className="main_container py-5 md:py-10">
         <h1 className="text-3xl font-semibold text-center mb-6">Privacy Policy</h1>
-        
+
         <div className="">
           <p className="mb-4">
-            Wintec CNC Machining Services, a company based in Shenzhen, China, has over 10 years of experience in CNC machining. We are committed to protecting the privacy of our customers and website visitors. This Privacy Policy outlines how we collect, use, store, and protect data associated with the Surface Finishing Services, Materials Machined, and CNC machining services we provide, including CNC turning, CNC milling, complex mill turning, and 5-axis machining processes. By engaging with our services or visiting our website, you agree to the terms described in this policy.
+            Guangdong Kuaiyuda Precision Machinery Co., Ltd. ("we," "our," or "us") recognizes the importance of protecting your privacy and is committed to safeguarding your personal information. This Privacy Policy outlines how we collect, use, and protect your information in relation to our products and services, including our manufacturing of non-woven deep processing equipment such as medical labor protection mask machines, non-woven beauty and life product manufacturing machines, and non-woven hotel and aviation product machinery.
           </p>
 
           <h2 className="text-2xl font-semibold mb-4">Information We Collect</h2>
-          <p className="mb-4">
-            In order to provide our services effectively, we may collect the following types of information:
-          </p>
           <ul className="list-disc pl-6 mb-4">
-            <li><strong>Contact Information:</strong> Name, company name, email address, phone number, and mailing address.</li>
-            <li><strong>Business Information:</strong> For corporate clients, we collect business names, industry types, and shipping addresses.</li>
-            <li><strong>Project-Specific Information:</strong> Part specifications, drawings, and other relevant information.</li>
+            <li><strong>Personal Information:</strong> Your name, job title, company name, email address, phone number, and other details you provide when making inquiries or placing orders.</li>
+            <li><strong>Business Information:</strong> Specifications or requirements related to customized machinery, purchase orders, and product preferences.</li>
+            <li><strong>Technical Information:</strong> Information about your use of our website, such as IP address, browser type, and access logs, to improve website functionality.</li>
+            <li><strong>Payment Information:</strong> Billing details and payment information necessary for processing transactions.</li>
           </ul>
 
           <h2 className="text-2xl font-semibold mb-4">How We Use Your Information</h2>
-          <p className="mb-4">
-            We use your personal information to:
-          </p>
           <ul className="list-disc pl-6 mb-4">
-            <li>Process your requests and inquiries</li>
-            <li>Provide CNC machining services</li>
-            <li>Communicate with you about your projects</li>
-            <li>Improve our services and customer experience</li>
+            <li>Order Fulfillment: To process and deliver your orders for our machinery and equipment.</li>
+            <li>Customization Services: To design and manufacture tailored non-woven processing machinery based on your specific requirements.</li>
+            <li>Customer Support: To respond to inquiries, provide technical support, and address complaints.</li>
+            <li>Product and Service Updates: To inform you about new machinery, technological advancements, and promotional offers.</li>
+            <li>Operational Improvements: To enhance the functionality of our website and optimize our manufacturing processes.</li>
+            <li>Legal Compliance: To comply with applicable laws, regulations, and contractual obligations.</li>
           </ul>
 
-          <h2 className="text-2xl font-semibold mb-4">How We Protect Your Information</h2>
+          <h2 className="text-2xl font-semibold mb-4">Sharing of Information</h2>
           <p className="mb-4">
-            We are committed to ensuring the security of your personal and business information. We employ a variety of security measures, including:
+            We respect your privacy and will not sell or rent your personal information. However, we may share your information in the following circumstances:
           </p>
           <ul className="list-disc pl-6 mb-4">
-            <li><strong>Data Encryption:</strong> Sensitive data is encrypted both during transmission (via SSL encryption) and at rest, to prevent unauthorized access.</li>
-            <li><strong>Access Controls:</strong> Only authorized personnel within Wintec and our third-party service providers have access to your personal data, based on the principle of least privilege.</li>
-            <li><strong>Secure Payment Processing:</strong> We use third-party payment processors that are PCI-DSS compliant to ensure secure payment transactions.</li>
-            <li><strong>Data Storage:</strong> We store your information securely and only retain it for as long as necessary to provide our services, fulfill contractual obligations, or comply with legal requirements.</li>
+            <li><strong>Service Providers:</strong> We may share your data with trusted third-party vendors who assist in logistics, payment processing, and other operational tasks.</li>
+            <li><strong>Compliance with Legal Obligations:</strong> We may disclose information to legal authorities when required by law or in response to valid legal processes.</li>
+            <li><strong>Business Transactions:</strong> In the event of a merger, acquisition, or sale of company assets, your information may be included as part of the transaction.</li>
           </ul>
+
+          <h2 className="text-2xl font-semibold mb-4">Data Security</h2>
           <p className="mb-4">
-            While we take reasonable steps to protect your data, no system can be completely secure. We do not guarantee absolute security but continue to strive for the best possible protection of your information.
+            We employ robust security measures to protect your information from unauthorized access, alteration, or destruction. This includes secure servers, encryption protocols, and restricted access to sensitive data.
           </p>
 
-          <h2 className="text-2xl font-semibold mb-4">Sharing Your Information</h2>
-          <p className="mb-4">
-            We do not sell, rent, or trade your personal or business information to third parties. However, we may share your information in the following situations:
-          </p>
+          <h2 className="text-2xl font-semibold mb-4">Your Rights</h2>
           <ul className="list-disc pl-6 mb-4">
-            <li><strong>Service Providers:</strong> We may share information with trusted third-party service providers who assist in performing services on our behalf, such as payment processors, delivery companies, IT service providers, and technical consultants.</li>
-            <li><strong>Legal Compliance:</strong> We may disclose your data if required to do so by law, such as in response to a subpoena, court order, or government investigation.</li>
-            <li><strong>Business Transactions:</strong> If Wintec undergoes a merger, acquisition, or sale of assets, your information may be transferred to the new owner as part of that transaction, subject to applicable data protection laws.</li>
+            <li><strong>Access Your Data:</strong> Request access to the personal information we hold about you.</li>
+            <li><strong>Correction of Data:</strong> Correct any inaccurate or incomplete information.</li>
+            <li><strong>Request Deletion:</strong> Request the deletion of your personal data where permissible by law.</li>
+            <li><strong>Opt-Out:</strong> Choose not to receive marketing communications from us.</li>
           </ul>
-
-          <h2 className="text-2xl font-semibold mb-4">Changes to This Privacy Policy</h2>
           <p className="mb-4">
-            We may update this Privacy Policy from time to time to reflect changes in our business practices, legal obligations, or technological advancements. Any changes will be posted on this page with an updated effective date. We encourage you to review this policy periodically to stay informed about how we protect your information.
+            To exercise these rights, please contact us at the details provided below.
+          </p>
+
+          <h2 className="text-2xl font-semibold mb-4">Cookies and Website Tracking</h2>
+          <p className="mb-4">
+            We use cookies and similar technologies on our website to improve your browsing experience and analyze website traffic. You may choose to disable cookies through your browser settings, though this may affect your user experience.
+          </p>
+
+          <h2 className="text-2xl font-semibold mb-4">Data Retention</h2>
+          <p className="mb-4">
+            We retain your information only for as long as necessary to fulfill the purposes outlined in this policy or as required by law.
+          </p>
+
+          <h2 className="text-2xl font-semibold mb-4">Third-Party Links</h2>
+          <p className="mb-4">
+            Our website may include links to third-party websites. We are not responsible for the privacy practices of these external sites and encourage you to review their privacy policies.
+          </p>
+
+          <h2 className="text-2xl font-semibold mb-4">Updates to This Privacy Policy</h2>
+          <p className="mb-4">
+            We reserve the right to update this Privacy Policy periodically to reflect changes in our practices or legal requirements. Any updates will be posted on our website with the revised date.
           </p>
 
           <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
-          <p className="mb-4">
-            If you have any questions, concerns, or requests regarding this Privacy Policy or how we handle your personal information, please contact us at:
-          </p>
           <address className="mb-4">
-            <p><strong>Wintec CNC Machining Services</strong></p>
-            <p>1st Floor, Building 7, Houhai Industrial Park, Loucun Community, Guangming New District, Shenzhen, China 518106</p>
-            <p>Email:  wintec@gmail.com
-            </p>
-            <p>Phone:  0755-86372308
-            </p>
+            <p><strong>Guangdong Kuaiyuda Precision Machinery Co., Ltd.</strong></p>
+            <p>Address: No.321 Dongshen Road, Tangxia Town, Dongguan City, Guangdong Province</p>
+            <p>Email: kyd@kuaiyuda.com</p>
+            <p>Phone: 86-13902617335</p>
           </address>
 
           <p className="mb-4">
-          By using our services, you confirm that you have read, understood, and agreed to these Terms and Conditions.
+            Your trust is of utmost importance to us, and we are committed to ensuring your privacy and protecting your personal data. Thank you for choosing Guangdong Kuaiyuda Precision Machinery Co., Ltd.
           </p>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default PrivacyPolicyPage
+export default PrivacyPolicyPage;
