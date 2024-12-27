@@ -30,7 +30,7 @@ const BlogCard = ({ blog, locale }) => {
       {description?.slice(0, 150) + ".." || "No description available."}
       </p>
       <Link
-        href={`/blog/${blog?._id}`}
+        href={`/news/${blog?._id}`}
         className="text-[#064a9b] hover:text-white hover:bg-primary transition text-sm p-2 md:p-3 px-5 md:px-7 cursor-pointer rounded-full font-semibold blog_border "
       >
         READ MORE

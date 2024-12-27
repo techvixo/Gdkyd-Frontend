@@ -69,8 +69,8 @@ const Navbar = ({ allCategories, local }) => {
           <div className="flex items-center justify-start gap-8 w-full">
             <a
               target="blank"
-              href="https://wa.me/+8801835339927"
-              className="flex text-sm items-center hover:text-secondary transition gap-2 text-white"
+              href="https://wa.me/+86-13902617335"
+              className="flex text-sm items-center hover:text-red-600 transition gap-2 text-white"
             >
               <span className="">
                 <BsTelephonePlus />
@@ -79,7 +79,7 @@ const Navbar = ({ allCategories, local }) => {
             </a>
             <a
               href="mailto:kyd@kuaiyuda.com"
-              className="flex text-sm hover:underline  hover:text-secondary transition items-center gap-2 text-white"
+              className="flex text-sm hover:underline hover:text-red-600 transition items-center gap-2 text-white"
             >
               <span className="">
                 <TfiEmail />
@@ -91,21 +91,21 @@ const Navbar = ({ allCategories, local }) => {
             <span className="text-white text-sm">{t("NabTop.social")} :</span>
             <a
               target="blank"
-              href="https://x.com/WintecMachining"
+              href="https://x.com/KYD_Precision"
               className="flex items-center justify-center hover:text-secondary transition text-white  text-sm md:text-base rounded-full "
             >
               <FaSquareXTwitter />
             </a>
             <a
               target="blank"
-              href="https://www.facebook.com/share/12Jp4VpTPYm/?mibextid=kFxxJD"
+              href="https://www.facebook.com/guangdongkyd"
               className="flex items-center justify-center hover:text-secondary transition text-white  text-sm md:text-base rounded-full "
             >
               <FaFacebookF />
             </a>
             <a
               target="blank"
-              href="https://www.linkedin.com/company/wintec-precision-machining-co--ltd/mycompany/"
+              href="https://www.linkedin.com/company/guangdong-kyd-medical-mask-machinery/"
               className="flex items-center justify-center hover:text-secondary transition text-white  text-sm md:text-base rounded-full "
             >
               <FaLinkedinIn />
@@ -113,7 +113,7 @@ const Navbar = ({ allCategories, local }) => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://wa.me/+8618018740613"
+              href="https://wa.me/+86-13902617335"
               className="flex items-center justify-center hover:text-secondary transition text-white text-sm md:text-base rounded-full"
             >
               <BsWhatsapp />

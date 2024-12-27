@@ -30,8 +30,8 @@
         "subMenu": ""
       },
       "menu5": {
-        "path": "/blog",
-        "title": "Blog",
+        "path": "/news",
+        "title": "News",
         "subMenu": ""
       },
       "menu6": {
@@ -499,14 +499,14 @@
     }
   },
   "Portfolio": {
-    "title": "Portfolio",
+    "title": "See KYD’s Innovations in Action",
     "Photos": {
       "title": "Portfolio",
-      "description": "Wintec Precision Machining delivers top-quality CNC machining services with unmatched precision. Our portfolio showcases a range of expertly crafted components designed to meet the high standards of diverse industries. Explore our products to see how our state-of-the-art equipment and skilled team bring each project to life with exceptional accuracy and reliability."
+      "description": "At KYD, we specialize in creating non-woven machinery that powers industries like healthcare, beauty, and packaging. Our portfolio showcases the real-world impact of our solutions—from fully automatic face mask machines to high-speed cosmetic product lines. Each project reflects our dedication to quality, innovation, and meeting the unique needs of our clients. Browse our portfolio to discover how our machines are helping businesses worldwide boost productivity and stay ahead of the competition."
     },
     "Videos": {
       "title": "Videos",
-      "description": "Wintec Precision Machining delivers top-quality CNC machining services with unmatched precision. Our portfolio showcases a range of expertly crafted components designed to meet the high standards of diverse industries. Explore our products to see how our state-of-the-art equipment and skilled team bring each project to life with exceptional accuracy and reliability."
+      "description": "At KYD, we specialize in creating non-woven machinery that powers industries like healthcare, beauty, and packaging. Our portfolio showcases the real-world impact of our solutions—from fully automatic face mask machines to high-speed cosmetic product lines. Each project reflects our dedication to quality, innovation, and meeting the unique needs of our clients. Browse our portfolio to discover how our machines are helping businesses worldwide boost productivity and stay ahead of the competition."
     }
   },
   "Blog": {

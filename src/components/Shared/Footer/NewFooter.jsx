@@ -10,6 +10,7 @@ import m5 from "../../../../public/assets/footer-img/peyment-mathod/5.png";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
+import { IoLogoTiktok } from "react-icons/io5";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -203,7 +204,7 @@ const NewFooter = () => {
             <div className=" flex items-center justify-center md:justify-start gap-3">
               <Link
                 href={
-                  "https://www.facebook.com/share/12Jp4VpTPYm/?mibextid=kFxxJD"
+                  "https://www.facebook.com/guangdongkyd"
                 }
                 target="blank"
               >
@@ -213,7 +214,7 @@ const NewFooter = () => {
               </Link>
               <Link
                 href={
-                  "https://www.linkedin.com/company/wintec-precision-machining-co--ltd/mycompany/"
+                  "https://www.linkedin.com/company/guangdong-kyd-medical-mask-machinery/"
                 }
                 target="blank"
                 className="flex items-center justify-center bg-secondary text-white h-8 w-8 text-lg rounded-full font-bold shadow hover:bg-[#0077b5] hover:scale-110 transition duration-300 ease-in-out"
@@ -221,7 +222,7 @@ const NewFooter = () => {
                 <FaLinkedinIn />
               </Link>
               <Link
-                href={"https://x.com/WintecMachining"}
+                href={"https://x.com/KYD_Precision"}
                 target="blank"
                 className="flex items-center justify-center bg-secondary text-white h-8 w-8 text-lg rounded-full font-bold shadow hover:bg-[#1da1f2] hover:scale-110 transition duration-300 ease-in-out"
               >
@@ -229,12 +230,12 @@ const NewFooter = () => {
               </Link>
               <Link
                 href={
-                  "https://youtube.com/@wintec-machining?si=3QVzwdcA5bKh0oPk"
+                  "https://www.tiktok.com/@kyd_precision_machinery"
                 }
                 target="blank"
                 className="flex items-center justify-center bg-secondary text-white h-8 w-8 text-lg rounded-full font-bold shadow hover:bg-[#ff0000] hover:scale-110 transition duration-300 ease-in-out"
               >
-                <FaYoutube />
+                <IoLogoTiktok />
               </Link>
               {/* WeChat QR Code */}
               <div className="QR_Code">
