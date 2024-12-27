@@ -229,6 +229,7 @@ const Navbar = ({ allCategories, local }) => {
                 {/* Mobile sub menu code start from here..... */}
                 {t(`navData.${key}.subMenu`) == "isMenu" && openSubMenus && (
                   <SubMenuForMobile
+                  allCategories={allCategories}
                     setNavToggle={setNavToggle}
                     openSubMenus={openSubMenus}
                   ></SubMenuForMobile>

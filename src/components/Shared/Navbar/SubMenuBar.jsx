@@ -18,7 +18,7 @@ const SubMenuBar = ({ setNavToggle, allCategories }) => {
               <div key={i} className="mx-auto z-40 p-2">
                 <NavLink
                   onClick={() => setNavToggle(false)}
-                  href={`/services/${service?._id}`}
+                  href={`/product/${service?._id}`}
                 // activeClassName=""
                 // exact={service?.path === "/"}
                 >
@@ -41,7 +41,7 @@ const SubMenuBar = ({ setNavToggle, allCategories }) => {
                       >
                         <NavLink
                           onClick={() => setNavToggle(false)}
-                          href={`/services/${slug}/${subService?._id}`}
+                          href={`/product/${slug}/${subService?._id}`}
                         // activeClassName=""
                         // exact={subService?.path === "/"}
                         >

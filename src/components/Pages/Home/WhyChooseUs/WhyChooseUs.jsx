@@ -43,7 +43,7 @@ const WhyChooseUs = () => {
             })}
           </div>
           <div className="text-center mt-4 md:my-4">
-          <Link href={"/services"}>
+          <Link href={"/product"}>
             <button
               className=" font-semibold md:mt-4  bg-gradient-to-r from-[#4177B7] to-[#86BCFC]  hover:bg-gradient-to-r hover:from-[#86BCFC] hover:to-[#4177B7] p-2 text-sm md:text-md px-3 md:px-10 rounded-md text-[#FFFFFF]  transition"
             >

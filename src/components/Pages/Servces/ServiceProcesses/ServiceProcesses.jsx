@@ -35,7 +35,7 @@ const ServiceProcesses = () => {
               </div>
               {/* Text */}
               <div className="w-full text-[#000000] p-0 md:px-7 md:w-1/2 flex flex-col justify-center">
-                <h2 className="text-2xl font-bold my-2 md:my-3 text-secondary">
+                <h2 className="text-2xl md:text-4xl font-bold my-2 md:my-3 text-secondary">
                 {t(`Process.${section}.title`)}
                 </h2>
                 {/* <ul className="flex flex-col gap-1 md:gap-2 ml-2 md:ml-4">
@@ -45,7 +45,7 @@ const ServiceProcesses = () => {
                     </li>
                   ))}
                 </ul> */}
-                <p className="my-2 md:my-4"> {t(`Process.${section}.description`)}</p>
+                <p className="my-2 md:my-4 md:text-xl"> {t(`Process.${section}.description`)}</p>
               </div>
             </div>
           );

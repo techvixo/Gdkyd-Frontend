@@ -13,7 +13,7 @@ const generateSlug = (text) => {
 };
   // const title = locale === "en" ? product?.title_en : product?.title_cn;
   const slug = generateSlug(product?.title_en); // Generate the slug for the title
-  const link = `/services/${slug}/${product?._id}`;
+  const link = `/product/${slug}/${product?._id}`;
  
   return (
     <div className="w-full h-full border border-t-0">

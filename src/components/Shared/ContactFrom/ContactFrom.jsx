@@ -9,7 +9,7 @@ const ContactForm = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   const handleSubmit = async (e) => {
-    setIsLoading(true)
+    setIsLoading(true);
     e.preventDefault();
     const from = e.target;
     const name = from.name.value;
@@ -22,22 +22,22 @@ const ContactForm = () => {
       email,
       phone,
       enquery: service,
-      editionalInfo: note
+      editionalInfo: note,
     };
     try {
-      setIsLoading(true)
+      setIsLoading(true);
       const response = await axios.post(
         `${BASEURL}/user/email/customer-enquery`,
         data
       );
       toast.success("Your message was sent successfully!");
-      setIsLoading(false)
-      from.reset("")
+      setIsLoading(false);
+      from.reset("");
       return response.data;
     } catch (error) {
       console.error("Error sending message:", error);
       toast.error("There was an error sending your message.");
-      setIsLoading(false)
+      setIsLoading(false);
     }
   };
   return (
@@ -92,15 +92,14 @@ const ContactForm = () => {
           <option disabled value="">
             Select one
           </option>
-          <option value="CNC Machining">
-            CNC Machining
-          </option>
+          <option value="CNC Machining">Face Mask Machinery</option>
           <option value="Materials Machined">
-            Materials Machined
+            Cosmetic&Life Products Making Machinery
           </option>
           <option value="Surface Finishing">
-            Surface Finishing
+            Medical Products Making Machinery
           </option>
+          <option value="Surface Finishing">Packaging Machinery</option>
         </select>
       </div>
       <div className="input_item">

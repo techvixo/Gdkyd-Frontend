@@ -3,75 +3,8 @@ import Link from 'next/link'
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import MenuLink from './MenuLink';
 
-const SubMenuForMobile = ({ setNavToggle, openSubMenus }) => {
-  const subMenu = [
-    {
-      serviceName: "CNC Machining Services",
-      path: "/cnc-machining",
-      subServiceName: [
-        {
-          path: "/cnc-turing",
-          title: "CNC Turning",
-        },
-        {
-          path: "/cnc-turing",
-          title: "CNC Milling",
-        },
-        {
-          path: "/cnc-turing",
-          title: "Complex Mill-Turning",
-        },
-        {
-          path: "/cnc-turing",
-          title: "5-Axis Machining",
-        },
-      ]
-    },
-    {
-      serviceName: "Materials Machined",
-      path: "/cnc-machining",
-      subServiceName: [
-        {
-          path: "/cnc-turing",
-          title: "Metals",
-        },
-        {
-          path: "/cnc-turing",
-          title: "Plastics",
-        },
-        {
-          path: "/cnc-turing",
-          title: "Complex Mill",
-        },
-        {
-          path: "/cnc-turing",
-          title: " Machining",
-        },
-      ]
-    },
-    {
-      serviceName: "Surface Finishing Services",
-      path: "/cnc-machining",
-      subServiceName: [
-        {
-          path: "/cnc-turing",
-          title: "CNC Turning",
-        },
-        {
-          path: "/cnc-turing",
-          title: "CNC Milling",
-        },
-        {
-          path: "/cnc-turing",
-          title: "Complex Mill-Turning",
-        },
-        {
-          path: "/cnc-turing",
-          title: "5-Axis Machining",
-        },
-      ]
-    },
-  ]
+const SubMenuForMobile = ({ setNavToggle, openSubMenus, allCategories }) => {
+
   return (
     <ul
       className={`mobile_sub_nav_men flex flex-col text-[13px] font-normal text-[#111547] w-full 
@@ -88,14 +21,14 @@ const SubMenuForMobile = ({ setNavToggle, openSubMenus }) => {
       </span>
       <MenuLink
         onClick={() => setNavToggle(false)}
-        href={"/services"}
+        href={"/product"}
         activeClassName="text-secondary font-semibold"
-        exact={"/services" === "/"}
+        exact={"/product" === "/"}
       >
         {"All Services"}
       </MenuLink>
     </li>
-      {subMenu?.slice(0, 4)?.map((subService, i) => {
+      {allCategories?.slice(0, 4)?.map((subService, i) => {
         return (
           <li
             key={i}
@@ -106,11 +39,11 @@ const SubMenuForMobile = ({ setNavToggle, openSubMenus }) => {
             </span>
             <MenuLink
               onClick={() => setNavToggle(false)}
-              href={`/services${subService?.path}`}
+              href={`/product/${subService?._id}`}
               activeClassName="text-secondary font-semibold"
-              exact={`/services${subService?.path}` === "/"}
+              exact={`/product/${subService?._id}` === "/"}
             >
-              {subService?.serviceName}
+              {subService?.name_en}
             </MenuLink>
           </li>
         )

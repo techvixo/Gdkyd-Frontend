@@ -28,7 +28,7 @@ export default async function Page({params}) {
         des={locale == "en" ? banner?.data?.description_en
           : banner?.data?.description_cn
         }
-        link={"/services"}
+        link={"/product"}
       ></ServiceBanner>
       {/* <PageMenu menus={menus}></PageMenu> */}
       <ServiceMenu></ServiceMenu>

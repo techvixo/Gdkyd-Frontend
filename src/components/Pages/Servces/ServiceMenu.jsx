@@ -15,7 +15,7 @@ const ServiceMenu = async () => {
                         return (
                             <MenuLink
                                 key={i}
-                                href={`/services/${menu?._id}`}
+                                href={`/product/${menu?._id}`}
                                 activeClassName="text-secondary font-semibold"
                                 exact={menu?.link === "/"}
                                 className="py-3 text-[#064a9b] md:py-5 px-6 md:px-10 inline-block border-l-2"

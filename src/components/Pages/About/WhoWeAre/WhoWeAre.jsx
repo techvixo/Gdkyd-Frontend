@@ -13,9 +13,18 @@ const WhoWeAre = () => {
               {t("WhoWeAre.title")}
             </h2>
             <p className="my-2"> {t(`WhoWeAre.des1`)}</p>
-            <p className="my-2">   {t(`WhoWeAre.des2`)} {t(`WhoWeAre.des3`)}</p>
+            <h4 className="text-xl md:text-xl font-semibold text-[#070F11] my-1">
+              {t("WhoWeAre.title2")}
+            </h4>
+            <p className="my-2">
+              {" "}
+              {t(`WhoWeAre.des2`)} {t(`WhoWeAre.des3`)}
+            </p>
+            <h4 className="text-xl md:text-xl font-semibold text-[#070F11] my-1">
+              {t("WhoWeAre.title3")}
+            </h4>
             {/* <p className="my-2">   {t(`WhoWeAre.des3`)}</p> */}
-            <p className="my-2">   {t(`WhoWeAre.des4`)}</p>
+            <p className="my-2"> {t(`WhoWeAre.des4`)}</p>
           </div>
           <div className="right_img_we">
             <Image

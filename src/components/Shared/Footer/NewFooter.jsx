@@ -143,7 +143,7 @@ const NewFooter = () => {
             <Link href="/portfolio">
               <span>Portfolio</span>
             </Link>
-            <Link href="/services">
+            <Link href="/product">
               <span>Services</span>
             </Link>
             <Link href="/contact">

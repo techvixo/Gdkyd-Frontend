@@ -57,7 +57,7 @@ const GetStarted = () => {
         </h2>
         <div className="flex items-center justify-center py-3 md:my-5">
         <Link
-          href={`/services`}
+          href={`/product`}
          className="shadow md:shadow-md font-semibold bg-gradient-to-r from-[#4177B7] to-[#86BCFC]  hover:bg-gradient-to-r hover:from-[#86BCFC] hover:to-[#4177B7] p-2 text-base md:text-lg px-3 md:px-10 rounded-md text-[#FFFFFF]  transition"
         >
          {t(`GetStart.button`)}

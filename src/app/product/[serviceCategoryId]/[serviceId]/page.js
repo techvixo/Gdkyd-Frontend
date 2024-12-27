@@ -24,7 +24,7 @@ export default async function Page({params}) {
         des={locale == "en" ? banner?.data?.description_en
           : banner?.data?.description_cn
         }
-        link={"/services"}
+        link={"/product"}
       ></ServiceBanner>
       <ServiceDetails  product={product?.data}></ServiceDetails>
     </div>

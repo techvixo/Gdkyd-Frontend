@@ -20,7 +20,7 @@ const Banner = ({ locale, data }) => {
   };
 
   const handleSearch = () => {
-    redirect("/services");
+    redirect("/product");
   };
   // console.log("object:", data);
   return (
