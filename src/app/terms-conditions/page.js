@@ -12,7 +12,7 @@ const TermsAndConditions = () => {
           {/* Introduction */}
           <div>
             <p>
-              Welcome to the website of Guangdong Kuaiyuda Precision Machinery Co., Ltd. ("we," "our," or "us"). By accessing or using our website and services, you agree to be bound by these Terms & Conditions. Please read them carefully. If you do not agree to these terms, you may not access or use our services.
+              Welcome to the website of Guangdong Kuaiyuda Precision Machinery Co., Ltd. (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). By accessing or using our website and services, you agree to be bound by these Terms & Conditions. Please read them carefully. If you do not agree to these terms, you may not access or use our services.
             </p>
           </div>
 

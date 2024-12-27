@@ -9,7 +9,7 @@ const PrivacyPolicyPage = () => {
 
         <div className="">
           <p className="mb-4">
-            Guangdong Kuaiyuda Precision Machinery Co., Ltd. ("we," "our," or "us") recognizes the importance of protecting your privacy and is committed to safeguarding your personal information. This Privacy Policy outlines how we collect, use, and protect your information in relation to our products and services, including our manufacturing of non-woven deep processing equipment such as medical labor protection mask machines, non-woven beauty and life product manufacturing machines, and non-woven hotel and aviation product machinery.
+            Guangdong Kuaiyuda Precision Machinery Co., Ltd. (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) recognizes the importance of protecting your privacy and is committed to safeguarding your personal information. This Privacy Policy outlines how we collect, use, and protect your information in relation to our products and services, including our manufacturing of non-woven deep processing equipment such as medical labor protection mask machines, non-woven beauty and life product manufacturing machines, and non-woven hotel and aviation product machinery.
           </p>
 
           <h2 className="text-2xl font-semibold mb-4">Information We Collect</h2>
