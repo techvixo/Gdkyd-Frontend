@@ -16,7 +16,7 @@ const MachineCard = ({ part, locale }) => {
           className="w-full h-64 md:h-80 object-cover"
         />
         <div className="p-4 bg-[#FBFAFE]">
-          <h3 className="text-xl md:my-2 capitalize font-semibold text-[#1A1A1A]">{locale == "en" ? title_en : title_cn}</h3>
+          <h3 className="text-xl md:my-2 capitalize text-center font-semibold text-[#1A1A1A]">{locale == "en" ? title_en : title_cn}</h3>
         </div>
       </div>
     </div>

@@ -255,7 +255,7 @@
     },
     "FindProduct": {
       "title": "Find sustainable products that fit your life perfectly.",
-      "description": "customers in over 30 countries—let’s find what works for you!",
+      "description": "customers in over 110 countries—let’s find what works for you!",
       "button": "Browse Product"
     }
   },
@@ -394,18 +394,47 @@
       "des3": "Innovation is at the heart of KYD. We consistently explore new technology applications, enhance product performance, and elevate service quality. This commitment has earned us widespread recognition and praise within the nonwoven products processing and equipment industry",
       "des4": "With a strong global presence, our products are sold in over 30 countries, forming lasting partnerships with renowned clients in Japan, Vietnam, India, Venezuela, and Mexico. Trusted by over 800 companies—including industry leaders like Honeywell, WEGO, DJI, and Winner Medical—KYD is a reliable partner in the field of nonwoven machinery."
     },
-    "WhatWeDo": {
+    "OurPartner": {
       "title": "Our Partners",
-      "description1": "At Wintec Precision Machining Co., Ltd., we specialize in delivering high-quality CNC machining solutions to meet diverse industry needs worldwide. With over a decade of experience, we provide a comprehensive suite of CNC machining services that emphasize quality, customization, and speed.",
-      "description2": "Our experienced team, advanced technology, state-of-the-art equipment, and strict management practices form the foundation of our company's growth and success. These elements, combined with our commitment to precision in CNC machining, have earned us the trust of our customers. We believe that through our ongoing dedication and pursuit of excellence, we can achieve mutual benefits and long-lasting success for both our company and our clients.",
+      "description": "At KYD, we’re proud to work with some of the best in the industry, including Honeywell, WEGO, DJI, and Winner Medical. These partnerships help us provide innovative and reliable solutions that support our clients’ success worldwide."
+     },
+    "WhatWeDo": {
+      "title": "What We Do",
+      "description": "Since 1999, KYD has been a leader in manufacturing nonwoven fabric machinery. We specialize in creating customizable, high-performance machines that integrate ultrasonic and mechanical technologies, offering tailored solutions that meet the unique needs of our customers across the globe."
+     },
+    "CoreValues": {
+      "title": "Core Values",
       "list": {
-        "para1": "We offer CNC turning, CNC milling, and advanced 4- and 5-axis machining. Our state-of-the-art equipment, including over 50 Japanese CNC machines like Mazak, Fanuc, and Citizen, ensures high precision and reliable performance for every part we produce.",
-        "para2": "Our expertise spans a wide range of materials, including carbon steel, stainless steel, aluminum, copper, Delrin, and PEEK, allowing us to meet specific client needs across electronics, medical devices, automotive, green energy, and hydraulics industries. We handle orders of any size, with no minimum order quantity (MOQ), providing flexibility and cost savings to our clients.",
-        "para3": "Quality is integral to our work. As an ISO 9001:2015-certified company, we maintain stringent quality control processes, including IQC, FAI, IPQC, and FI, ensuring each part meets rigorous international standards. We also offer comprehensive quality documentation, such as inspection reports and certificates, to guarantee compliance and reliability.",
-        "para4": "We partner with trusted subcontractors to provide full surface finishing options like anodizing, electroplating, powder coating, and e-polishing. This ensures that we deliver fully completed parts, ready for use, from prototyping to mass production.",
-        "para5": "With a strategic location near major shipping hubs, Wintec efficiently exports to Europe and North America, making us a trusted partner for international clients. Our global logistics experience and commitment to on-time delivery help us serve clients worldwide."
+        "para1": "Innovation: We constantly push the boundaries of technology to improve our machinery and processes.",
+        "para2": "Quality: Our products are built to be reliable, durable, and high-performing.",
+        "para3": "Sustainability: We prioritize eco-friendly methods and responsible sourcing in all our production.",
+        "para4": "Customer Focus: We place customer satisfaction at the core of everything we do."
       }
     },
+    "Sustainability": {
+      "title": "Sustainability Practices",
+      "description": "We’re committed to reducing our environmental impact by adopting energy-efficient technologies and minimizing waste. Our efforts extend beyond our machines, as we continuously seek ways to make our operations more eco-friendly"
+     },
+    "Condition": {
+      "title": "Certifications and Accreditations",
+      "description": "Our quality commitment is recognized globally with certifications like ISO 9001 and CE Marking, along with industry-specific awards for innovation and performance."
+     },
+    "Company": {
+      "title": "Company Culture",
+      "description": "Creativity, collaboration, and continuous learning are the foundation of our company. We invest in our team’s growth, fostering an inclusive culture that encourages innovation and the sharing of ideas."
+     },
+    "Future": {
+      "title": "Future Vision",
+      "description": "Looking ahead, KYD aims to expand our global reach and introduce new innovations that will keep our customers ahead in a competitive market. Our goal is to continue leading the nonwoven machinery industry while upholding our legacy of excellence."
+     },
+     "OurService": {
+       "title": "Our Services",
+        "description1": "We offer full support, from pre-sales consultation to after-sales service:",
+        "description2": "At KYD, we don’t just deliver machines—we build lasting partnerships with our customers through innovation, quality, and exceptional support.",
+       "list": {
+         "para1": "Pre-Sales Support: Expert consultations, custom design drawings, and tailored production services.",
+         "para2": "After-Sales Support: One-year warranty, free training, comprehensive manuals, remote support, and on-site services."       }
+     },
     "Facilities": {
       "title": "Facilities",
       "Data": {

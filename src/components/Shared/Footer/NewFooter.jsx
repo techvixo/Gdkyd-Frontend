@@ -115,8 +115,8 @@ const NewFooter = () => {
               {/* <p className='flex items-start gap-3 text-[#FFFFFFE5]'><span className="text-xl font-semibold text-primary"><FaLocationDot /></span><span>House 04, Road 15, Block-D, (2nd floor), banani, dhaka-1213</span></p> */}
               <p className="flex items-center gap-3 text-[#FFFFFFE5]">
                 <span className="text-xs md:text-sm">
-                  Address：1st Floor, Building 7,Houhai Industrial Park, Loucun
-                  Community, Guangming New District, Shenzhen, China 518106
+                  Address：No.321 Dongshen Road, Tangxia Town, Dongguan City, Guangdong Province
+
                 </span>
               </p>
               <p className="flex items-center gap-3 text-[#FFFFFFE5]">
@@ -138,13 +138,13 @@ const NewFooter = () => {
           <div className="flex flex-col gap-3 font-normal">
             <p className="text-white font-bold  mb-3">NAVIGATION</p>
             <Link href="/about">
-              <span>About Wintec</span>
+              <span>About KYD</span>
             </Link>
             <Link href="/portfolio">
               <span>Portfolio</span>
             </Link>
             <Link href="/product">
-              <span>Services</span>
+              <span>Products </span>
             </Link>
             <Link href="/contact">
               <span>Contact</span>
@@ -269,8 +269,8 @@ const NewFooter = () => {
           </div>
         </div>
         <p className="text-sm text-center text-white mt-4 md:mt-4 w-full">
-          © Copyright Wintec precision machining Co.,Ltd {currentYear} - All
-          Rights Reserved.
+          © Copyright Guangdong KYD Precision Machinery Co., Ltd {currentYear} - All Rights Reserved.
+
         </p>
         <p className="text-sm  text-center text-[#d4d4d4] py-3 w-full">
           <a
