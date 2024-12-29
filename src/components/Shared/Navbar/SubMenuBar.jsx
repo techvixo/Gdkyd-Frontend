@@ -1,7 +1,7 @@
 import Image from "next/image";
 import NavLink from "./NavLink";
 
-import logo from "../../../../public/assets/logo/logo.png";
+import logo from "../../../../public/assets/logo/logo.webp";
 import Link from "next/link";
 const SubMenuBar = ({ setNavToggle, allCategories }) => {
 
@@ -55,7 +55,7 @@ const SubMenuBar = ({ setNavToggle, allCategories }) => {
             );
           })}
           <div className="w-full flex items-center justify-center">
-            <Link className="w-2/3" href={"/"}>
+            <Link className="w-1/2" href={"/"}>
               <Image src={logo} alt="logo" width={200} className="w-full" />
             </Link>
           </div>
