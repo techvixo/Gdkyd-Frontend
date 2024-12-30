@@ -67,7 +67,7 @@ const ChatBox = () => {
         <div className="absolute right-0 bottom-2 bg-white p-3 w-[300px] h-[400px] rounded-md shadow-lg">
           <div className="relative pt-7">
             <div className="chat_top absolute top-0 left-0 right-0 w-full flex items-center justify-between border-b py-1">
-              <p className='text-gray-700 font-semibold text-sm'>Wintec Support</p>
+              <p className='text-gray-700 font-semibold text-sm'>KYD Support</p>
               <p className='text-lg flex items-center gap-4'>
                 <button onClick={handleChatClose} id='delete_button' type='button' className=''><AiOutlineDelete /></button>
                 <button onClick={() => setIsOpenChat(false)} id='close_button' type='button' className=' text-xl'><IoMdClose /></button>

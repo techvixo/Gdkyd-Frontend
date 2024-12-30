@@ -25,7 +25,7 @@ const SubMenuForMobile = ({ setNavToggle, openSubMenus, allCategories }) => {
         activeClassName="text-secondary font-semibold"
         exact={"/product" === "/"}
       >
-        {"All Services"}
+        {"All Products"}
       </MenuLink>
     </li>
       {allCategories?.slice(0, 4)?.map((subService, i) => {
