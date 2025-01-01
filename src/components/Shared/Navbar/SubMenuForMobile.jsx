@@ -25,7 +25,7 @@ const SubMenuForMobile = ({ setNavToggle, openSubMenus, allCategories, locale })
         activeClassName="text-secondary font-semibold"
         exact={"/product" === "/"}
       >
-        {"All Products"}
+       {locale == "en" ? "All Products" : "所有产品"}
       </MenuLink>
     </li>
       {allCategories?.slice(0, 4)?.map((subService, i) => {
@@ -43,7 +43,8 @@ const SubMenuForMobile = ({ setNavToggle, openSubMenus, allCategories, locale })
               activeClassName="text-secondary font-semibold"
               exact={`/product/${subService?._id}` === "/"}
             >
-              {subService?.name_en}
+              {/* {subService?.name_en} */}
+              {locale == "en" ? subService?.name_en : subService?.name_cn}
             </MenuLink>
           </li>
         )

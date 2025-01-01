@@ -22,7 +22,6 @@ const SubMenuBar = ({ setNavToggle, allCategories, locale }) => {
                 // activeClassName=""
                 // exact={service?.path === "/"}
                 >
-                  {/* {service?.name_en} */}
                   {locale == "en" ? service?.name_en : service?.name_cn}
                 </NavLink>
                 <ul className=" py-2">
