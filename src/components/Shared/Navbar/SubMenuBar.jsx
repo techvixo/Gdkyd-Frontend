@@ -3,7 +3,7 @@ import NavLink from "./NavLink";
 
 import logo from "../../../../public/assets/logo/logo.webp";
 import Link from "next/link";
-const SubMenuBar = ({ setNavToggle, allCategories }) => {
+const SubMenuBar = ({ setNavToggle, allCategories, locale }) => {
 
   // console.log("HHHHHHHHHHHHHHHH:", allCategories);
   return (
@@ -13,7 +13,7 @@ const SubMenuBar = ({ setNavToggle, allCategories }) => {
           <span className="absolute -z-50 top-[-20px] left-1/2  rotate-45  bg-primary h-5 w-5 "></span>
         </div>
         <div className="grid grid-cols-4 gap-5">
-          {allCategories?.slice(0, 3)?.map((service, i) => {
+          {allCategories?.slice(0, 4)?.map((service, i) => {
             return (
               <div key={i} className="mx-auto z-40 p-2">
                 <NavLink
@@ -22,7 +22,8 @@ const SubMenuBar = ({ setNavToggle, allCategories }) => {
                 // activeClassName=""
                 // exact={service?.path === "/"}
                 >
-                  {service?.name_en}
+                  {/* {service?.name_en} */}
+                  {locale == "en" ? service?.name_en : service?.name_cn}
                 </NavLink>
                 <ul className=" py-2">
                   {service?.products?.slice(0, 5)?.map((subService, i) => {
@@ -46,6 +47,7 @@ const SubMenuBar = ({ setNavToggle, allCategories }) => {
                         // exact={subService?.path === "/"}
                         >
                           {subService?.title_en}
+                          {locale == "en" ? subService?.title_en : subService?.title_cn}
                         </NavLink>
                       </li>
                     );
@@ -54,11 +56,11 @@ const SubMenuBar = ({ setNavToggle, allCategories }) => {
               </div>
             );
           })}
-          <div className="w-full flex items-center justify-center">
+          {/* <div className="w-full flex items-center justify-center">
             <Link className="w-1/2" href={"/"}>
               <Image src={logo} alt="logo" width={200} className="w-full" />
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

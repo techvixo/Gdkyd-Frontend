@@ -5,7 +5,7 @@ import "./style.css";
 import toast from "react-hot-toast";
 import { BASEURL } from "../../../../Constant";
 
-const ContactForm = () => {
+const ContactForm = ({name, phone, email, product, note}) => {
   const [isLoading, setIsLoading] = useState(false);
 
   const handleSubmit = async (e) => {
@@ -49,7 +49,7 @@ const ContactForm = () => {
       <div className="grid grid-cols-2 gap-2 md:gap-3">
         <div className="input_item">
           <p className="text-sm md:text-base font-semibold text-[#313131]">
-            Full name <span className="text-red-500">*</span>
+          {name} <span className="text-red-500">*</span>
           </p>
           <input
             type="text"
@@ -61,7 +61,7 @@ const ContactForm = () => {
         </div>
         <div className="input_item">
           <p className="text-sm md:text-base font-semibold text-[#313131]">
-            Phone number <span className="text-red-500">*</span>
+          {phone} <span className="text-red-500">*</span>
           </p>
           <input
             type="number"
@@ -74,7 +74,7 @@ const ContactForm = () => {
       </div>
       <div className="input_item">
         <p className="text-sm md:text-base font-semibold text-[#313131]">
-          Email <span className="text-red-500">*</span>
+        {email} <span className="text-red-500">*</span>
         </p>
         <input
           type="email"
@@ -86,7 +86,7 @@ const ContactForm = () => {
       </div>
       <div className="input_item">
         <p className="text-sm md:text-base font-semibold text-[#313131]">
-          What is your enquiry about? <span className="text-red-500">*</span>
+        {product} <span className="text-red-500">*</span>
         </p>
         <select name="service" className="w-full h-10 md:h-14" required>
           <option disabled value="">
@@ -104,7 +104,7 @@ const ContactForm = () => {
       </div>
       <div className="input_item">
         <p className="text-sm md:text-base font-semibold text-[#313131]">
-          Additional information <span className="text-red-500">*</span>
+        {note} <span className="text-red-500">*</span>
         </p>
         <textarea
           type="text"

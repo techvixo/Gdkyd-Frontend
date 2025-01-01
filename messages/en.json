@@ -246,6 +246,13 @@
       "description": "We invite you to connect with us! ",
       "office": "Corporate office",
       "social": "Let's connect. We are just a click away!",
+      "FormData": {
+        "name": "Full name",
+        "phone": "Phone number",
+        "email": "Email",
+        "product": "What is your enquiry about?",
+        "note": "Additional information"
+      },
       "ContactInfo": {
         "call": "call",
         "wp": "What's App",
@@ -254,7 +261,7 @@
       }
     },
     "FindProduct": {
-      "title": "Find sustainable products that fit your life perfectly.",
+      "title": "Find a production tool that satisfies you in price and quality, and add a force to your factory.",
       "description": "customers in over 110 countries—let’s find what works for you!",
       "button": "Browse Product"
     }
@@ -378,6 +385,10 @@
       },
       "button": "START YOUR ORDER"
     },
+    "ServiceDetail": {
+      "productInfo": "Product Information",
+      "aboutProduct": "About Product"
+    },
     "GetStart": {
       "title": "Let’s Get Started",
       "button": "Get Instant Quote"
@@ -397,11 +408,11 @@
     "OurPartner": {
       "title": "Our Partners",
       "description": "At KYD, we’re proud to work with some of the best in the industry, including Honeywell, WEGO, DJI, and Winner Medical. These partnerships help us provide innovative and reliable solutions that support our clients’ success worldwide."
-     },
+    },
     "WhatWeDo": {
       "title": "What We Do",
       "description": "Since 1999, KYD has been a leader in manufacturing nonwoven fabric machinery. We specialize in creating customizable, high-performance machines that integrate ultrasonic and mechanical technologies, offering tailored solutions that meet the unique needs of our customers across the globe."
-     },
+    },
     "CoreValues": {
       "title": "Core Values",
       "list": {
@@ -414,27 +425,28 @@
     "Sustainability": {
       "title": "Sustainability Practices",
       "description": "We’re committed to reducing our environmental impact by adopting energy-efficient technologies and minimizing waste. Our efforts extend beyond our machines, as we continuously seek ways to make our operations more eco-friendly"
-     },
+    },
     "Condition": {
       "title": "Certifications and Accreditations",
       "description": "Our quality commitment is recognized globally with certifications like ISO 9001 and CE Marking, along with industry-specific awards for innovation and performance."
-     },
+    },
     "Company": {
       "title": "Company Culture",
       "description": "Creativity, collaboration, and continuous learning are the foundation of our company. We invest in our team’s growth, fostering an inclusive culture that encourages innovation and the sharing of ideas."
-     },
+    },
     "Future": {
       "title": "Future Vision",
       "description": "Looking ahead, KYD aims to expand our global reach and introduce new innovations that will keep our customers ahead in a competitive market. Our goal is to continue leading the nonwoven machinery industry while upholding our legacy of excellence."
-     },
-     "OurService": {
-       "title": "Our Services",
-        "description1": "We offer full support, from pre-sales consultation to after-sales service:",
-        "description2": "At KYD, we don’t just deliver machines—we build lasting partnerships with our customers through innovation, quality, and exceptional support.",
-       "list": {
-         "para1": "Pre-Sales Support: Expert consultations, custom design drawings, and tailored production services.",
-         "para2": "After-Sales Support: One-year warranty, free training, comprehensive manuals, remote support, and on-site services."       }
-     },
+    },
+    "OurService": {
+      "title": "Our Services",
+      "description1": "We offer full support, from pre-sales consultation to after-sales service:",
+      "description2": "At KYD, we don’t just deliver machines—we build lasting partnerships with our customers through innovation, quality, and exceptional support.",
+      "list": {
+        "para1": "Pre-Sales Support: Expert consultations, custom design drawings, and tailored production services.",
+        "para2": "After-Sales Support: One-year warranty, free training, comprehensive manuals, remote support, and on-site services."
+      }
+    },
     "Facilities": {
       "title": "Facilities",
       "Data": {
@@ -559,6 +571,13 @@
       "description": "Have questions or need more details about KYD’s machinery? Contact us today—we’re here to help you find the right solution for your business.",
       "office": "Corporate office",
       "social": "Let's connect. We are just a click away!",
+      "FormData": {
+        "name": "Full name",
+        "phone": "Phone number",
+        "email": "Email",
+        "product": "What is your enquiry about?",
+        "note": "Additional information"
+      },
       "ContactInfo": {
         "call": "call",
         "wp": "What's App",

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import MenuLink from './MenuLink';
 
-const SubMenuForMobile = ({ setNavToggle, openSubMenus, allCategories }) => {
+const SubMenuForMobile = ({ setNavToggle, openSubMenus, allCategories, locale }) => {
 
   return (
     <ul

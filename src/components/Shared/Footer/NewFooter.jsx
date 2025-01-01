@@ -123,7 +123,7 @@ const NewFooter = () => {
                 <span className="text-xl font-semibold text-secondary">
                   <MdOutlinePhonelinkRing />
                 </span>
-                <span className="text-xs md:text-sm">0755-86372308</span>
+                <span className="text-xs md:text-sm">0769-87937128</span>
               </p>
               <p className="flex items-center gap-3 text-[#FFFFFFE5]">
                 <span className="text-xl font-semibold text-secondary">

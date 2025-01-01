@@ -121,7 +121,13 @@ const ContactBox = () => {
             </div>
           </div>
           <div className="w-full">
-            <ContactForm></ContactForm>
+            <ContactForm
+            name= {t(`ContactForm.FormData.name`)} 
+            phone= {t(`ContactForm.FormData.phone`)} 
+            email= {t(`ContactForm.FormData.email`)} 
+            product={t(`ContactForm.FormData.product`)} 
+            note= {t(`ContactForm.FormData.note`)} 
+            ></ContactForm>
           </div>
         </div>
       </div>

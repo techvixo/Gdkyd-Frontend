@@ -1,11 +1,11 @@
-import img from "../../../../../../public/assets/services/service-img.png";
 import Image from "next/image";
 import DetailImages from "./DetailImages";
 import ProductDetails from "./ProdutcDetails";
 import { BASEURL } from "../../../../../../Constant";
+import { useTranslations } from "next-intl";
 
 const ServiceConfigaration = ({product, locale}) => {
-  // console.log(product);
+  const t = useTranslations('ServicePage');
   return (
     <div className="my-5 md:my-14">
      <div className="main_container">
@@ -30,7 +30,7 @@ const ServiceConfigaration = ({product, locale}) => {
         </div>
        </div>
       </div>
-      <ProductDetails locale={locale} product={product} configurations={product?.configurations}></ProductDetails>
+      <ProductDetails  productInfo={t(`ServiceDetail.productInfo`)} aboutProduct={t(`ServiceDetail.aboutProduct`)} locale={locale} product={product} configurations={product?.configurations}></ProductDetails>
      </div>
     </div>
   )

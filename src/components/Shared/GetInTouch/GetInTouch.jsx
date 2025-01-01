@@ -19,7 +19,13 @@ const GetInTouch = () => {
       <div className="main_container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
           <div className="w-full bg-white p-4 md:p-8 shadow-md rounded md:rounded-md md:py-10">
-            <ContactForm></ContactForm>
+            <ContactForm
+            name= {t(`ContactForm.FormData.name`)} 
+            phone= {t(`ContactForm.FormData.phone`)} 
+            email= {t(`ContactForm.FormData.email`)} 
+            product={t(`ContactForm.FormData.product`)} 
+            note= {t(`ContactForm.FormData.note`)} 
+            ></ContactForm>
           </div>
           <div className="contact_content w-full">
             <h2 className="text-2xl md:text-3xl font-bold text-[#070F11] my-2 ">

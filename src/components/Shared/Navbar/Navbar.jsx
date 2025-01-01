@@ -23,7 +23,7 @@ import LocaleSwitcher from "../LanguageSwitcher/LocaleSwitcher";
 import { useTranslations } from "next-intl";
 import MenuLink from "./MenuLink";
 
-const Navbar = ({ allCategories, local }) => {
+const Navbar = ({ allCategories, locale }) => {
   const [navToggle, setNavToggle] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
   const [isRoot, setIsRoot] = useState(true);
@@ -186,6 +186,7 @@ const Navbar = ({ allCategories, local }) => {
                   </NavLink>
                   {t(`navData.${key}.subMenu`) == "isMenu" && (
                     <SubMenuBar
+                    locale={locale} 
                       allCategories={allCategories}
                       setNavToggle={setNavToggle}
                     ></SubMenuBar>
@@ -229,6 +230,7 @@ const Navbar = ({ allCategories, local }) => {
                 {/* Mobile sub menu code start from here..... */}
                 {t(`navData.${key}.subMenu`) == "isMenu" && openSubMenus && (
                   <SubMenuForMobile
+                  locale={locale} 
                   allCategories={allCategories}
                     setNavToggle={setNavToggle}
                     openSubMenus={openSubMenus}
