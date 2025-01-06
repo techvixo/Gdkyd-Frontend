@@ -7,8 +7,8 @@ const SubMenuBar = ({ setNavToggle, allCategories, locale }) => {
 
   // console.log("HHHHHHHHHHHHHHHH:", allCategories);
   return (
-    <div className="sub_nav_manu py-6 z-10 shadow-lg absolute top-28 left-0 right-0 w-full h-auto bg-primary p-1 text-white ">
-      <div className="main_container">
+    <div className="sub_nav_manu main_container rounded-b-md py-6 z-10 shadow-lg absolute top-28 left-0 right-0 w-full h-auto bg-primary p-1 text-white ">
+      <div className="">
         <div className="relative">
           <span className="absolute -z-50 top-[-20px] left-1/2  rotate-45  bg-primary h-5 w-5 "></span>
         </div>
@@ -19,6 +19,7 @@ const SubMenuBar = ({ setNavToggle, allCategories, locale }) => {
                 <NavLink
                   onClick={() => setNavToggle(false)}
                   href={`/product/${service?._id}`}
+                  className="text-xs"
                 // activeClassName=""
                 // exact={service?.path === "/"}
                 >
@@ -42,10 +43,10 @@ const SubMenuBar = ({ setNavToggle, allCategories, locale }) => {
                         <NavLink
                           onClick={() => setNavToggle(false)}
                           href={`/product/${slug}/${subService?._id}`}
+                           className="text-xs"
                         // activeClassName=""
                         // exact={subService?.path === "/"}
                         >
-                          {subService?.title_en}
                           {locale == "en" ? subService?.title_en : subService?.title_cn}
                         </NavLink>
                       </li>

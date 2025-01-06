@@ -11,7 +11,7 @@ import { BsInstagram } from "react-icons/bs";
 import ContactForm from "../../../components/Shared/ContactFrom/ContactFrom";
 import { useTranslations } from "next-intl";
 
-const GetInTouch = () => {
+const GetInTouch = ({locale}) => {
   const t = useTranslations('HomePage');
   const keys = ['feature1', 'feature2', 'feature3'];
   return (
@@ -20,6 +20,7 @@ const GetInTouch = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
           <div className="w-full bg-white p-4 md:p-8 shadow-md rounded md:rounded-md md:py-10">
             <ContactForm
+            locale={locale}
             name= {t(`ContactForm.FormData.name`)} 
             phone= {t(`ContactForm.FormData.phone`)} 
             email= {t(`ContactForm.FormData.email`)} 

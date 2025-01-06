@@ -11,7 +11,7 @@ import { RiWhatsappFill } from "react-icons/ri";
 import { BsInstagram } from "react-icons/bs";
 import { useTranslations } from "next-intl";
 
-const ContactBox = () => {
+const ContactBox = ({locale}) => {
   const t = useTranslations('Contact');
   return (
     <div className="py-5 md:py-10">
@@ -122,6 +122,7 @@ const ContactBox = () => {
           </div>
           <div className="w-full">
             <ContactForm
+            locale={locale}
             name= {t(`ContactForm.FormData.name`)} 
             phone= {t(`ContactForm.FormData.phone`)} 
             email= {t(`ContactForm.FormData.email`)} 

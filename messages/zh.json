@@ -103,19 +103,19 @@
       "des": "我们用数字讲述故事",
       "Counters": {
         "counter1": {
-          "countNumber": "12,500 +",
+          "countNumber": "12500 +",
           "name": "满意客户"
         },
         "counter2": {
-          "countNumber": "10,500 +",
+          "countNumber": "10500 +",
           "name": "完成项目"
         },
         "counter3": {
-          "countNumber": "1,000 +",
+          "countNumber": "1000 +",
           "name": "获得奖项"
         },
         "counter4": {
-          "countNumber": "1,500 +",
+          "countNumber": "1500 +",
           "name": "创作内容"
         }
       }

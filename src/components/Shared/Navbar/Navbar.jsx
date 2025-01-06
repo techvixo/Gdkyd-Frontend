@@ -141,7 +141,7 @@ const Navbar = ({ allCategories, locale }) => {
                 src={isSticky ? mainLogo : logo}
                 alt="logo"
                 width={400}
-                className="w-24"
+                className="w-20"
               />
             </NavLink>
           ) : (
@@ -150,7 +150,7 @@ const Navbar = ({ allCategories, locale }) => {
                 src={mainLogo}
                 alt="logo"
                 width={400}
-                className="w-24"
+                className="w-20"
               />
             </NavLink>
           )}

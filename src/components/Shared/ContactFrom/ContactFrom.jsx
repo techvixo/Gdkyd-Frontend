@@ -5,7 +5,7 @@ import "./style.css";
 import toast from "react-hot-toast";
 import { BASEURL } from "../../../../Constant";
 
-const ContactForm = ({name, phone, email, product, note}) => {
+const ContactForm = ({ locale, name, phone, email, product, note }) => {
   const [isLoading, setIsLoading] = useState(false);
 
   const handleSubmit = async (e) => {
@@ -40,6 +40,7 @@ const ContactForm = ({name, phone, email, product, note}) => {
       setIsLoading(false);
     }
   };
+  console.log("Local:", locale);
   return (
     <form
       id="contact_form"
@@ -49,7 +50,7 @@ const ContactForm = ({name, phone, email, product, note}) => {
       <div className="grid grid-cols-2 gap-2 md:gap-3">
         <div className="input_item">
           <p className="text-sm md:text-base font-semibold text-[#313131]">
-          {name} <span className="text-red-500">*</span>
+            {name} <span className="text-red-500">*</span>
           </p>
           <input
             type="text"
@@ -61,7 +62,7 @@ const ContactForm = ({name, phone, email, product, note}) => {
         </div>
         <div className="input_item">
           <p className="text-sm md:text-base font-semibold text-[#313131]">
-          {phone} <span className="text-red-500">*</span>
+            {phone} <span className="text-red-500">*</span>
           </p>
           <input
             type="number"
@@ -74,7 +75,7 @@ const ContactForm = ({name, phone, email, product, note}) => {
       </div>
       <div className="input_item">
         <p className="text-sm md:text-base font-semibold text-[#313131]">
-        {email} <span className="text-red-500">*</span>
+          {email} <span className="text-red-500">*</span>
         </p>
         <input
           type="email"
@@ -86,25 +87,45 @@ const ContactForm = ({name, phone, email, product, note}) => {
       </div>
       <div className="input_item">
         <p className="text-sm md:text-base font-semibold text-[#313131]">
-        {product} <span className="text-red-500">*</span>
+          {product} <span className="text-red-500">*</span>
         </p>
         <select name="service" className="w-full h-10 md:h-14" required>
           <option disabled value="">
-            Select one
+            {locale == "en" ? "Select one" : "選擇一項"}
           </option>
-          <option value="CNC Machining">Face Mask Machinery</option>
-          <option value="Materials Machined">
-            Cosmetic&Life Products Making Machinery
+          <option value={locale == "en" ? "Face Mask Machinery" : "口罩机械"}>
+            {locale == "en" ? "Face Mask Machinery" : "口罩机械"}
           </option>
-          <option value="Surface Finishing">
-            Medical Products Making Machinery
+          <option
+            value={
+              locale == "en"
+                ? "Cosmetic&Life Products Making Machinery"
+                : "化妆品及生活用品制造机械"
+            }
+          >
+            {locale == "en"
+              ? "Cosmetic&Life Products Making Machinery"
+              : "化妆品及生活用品制造机械"}
           </option>
-          <option value="Surface Finishing">Packaging Machinery</option>
+          <option
+            value={
+              locale == "en"
+                ? "Medical Products Making Machinery"
+                : "医疗产品制造机械"
+            }
+          >
+            {locale == "en"
+              ? "Medical Products Making Machinery"
+              : "医疗产品制造机械"}
+          </option>
+          <option value={locale == "en" ? "Packaging Machinery" : "包装机械"}>
+            {locale == "en" ? "Packaging Machinery" : "包装机械"}
+          </option>
         </select>
       </div>
       <div className="input_item">
         <p className="text-sm md:text-base font-semibold text-[#313131]">
-        {note} <span className="text-red-500">*</span>
+          {note} <span className="text-red-500">*</span>
         </p>
         <textarea
           type="text"

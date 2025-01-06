@@ -39,7 +39,7 @@ export default async function Page() {
       <OurTeam locale={locale} ourTeamMembers={teamMembers?.data}></OurTeam>
       <Certificates locale={locale} certificatesData={certificatesData?.data}></Certificates>
       <ClientTestimonial></ClientTestimonial>
-      <GetInTouch></GetInTouch>
+      <GetInTouch locale={locale}></GetInTouch>
       <FindProducts></FindProducts>
     </div>
   );

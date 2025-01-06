@@ -26,7 +26,7 @@ export default async function Page() {
           : banner?.data?.description_cn
         } link={"contact"}
       ></ShareBanner>
-      <ContactBox></ContactBox>
+      <ContactBox locale={locale}></ContactBox>
       <MapLocation></MapLocation>
       <Subscribe></Subscribe>
     </div>

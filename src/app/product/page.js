@@ -31,7 +31,7 @@ export default async function Page() {
       <WintechStandard></WintechStandard>
       <MachinesCenter></MachinesCenter>
       <ServiceFAQ></ServiceFAQ>
-      <GetInTouch></GetInTouch>
+      <GetInTouch locale={locale}></GetInTouch>
     </div>
   );
 }

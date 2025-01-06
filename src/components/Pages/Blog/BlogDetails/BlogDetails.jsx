@@ -139,7 +139,7 @@ const BlogDetails = async ({id}) => {
       </div>
       <RelatedBlogs locale={locale} blogs={filterBlogs}></RelatedBlogs>
       <Subscribe></Subscribe>
-      <GetInTouch></GetInTouch>
+      <GetInTouch locale={locale}></GetInTouch>
     </div>
   );
 };

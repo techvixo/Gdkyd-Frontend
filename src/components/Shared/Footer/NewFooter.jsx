@@ -162,8 +162,8 @@ const NewFooter = () => {
             <Link href="/privacy-policy">
               <span>Privacy & Policy</span>
             </Link>
-            <Link href="/blog">
-              <span>Blog and article</span>
+            <Link href="/news">
+              <span>News and article</span>
             </Link>
           </div>
           <div className=" flex flex-col gap-3">

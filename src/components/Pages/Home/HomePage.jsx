@@ -31,7 +31,7 @@ const HomePage = async () => {
       <FeaturedVideoShow locale={locale} videos={homePageData?.data?.featured_video}></FeaturedVideoShow>
       <ClientTestimonial></ClientTestimonial>
       <FAQ></FAQ>
-      <GetInTouch></GetInTouch>
+      <GetInTouch locale={locale}></GetInTouch>
       <FindProducts></FindProducts>
     </div>
   )

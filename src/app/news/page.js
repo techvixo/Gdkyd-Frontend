@@ -21,7 +21,7 @@ export default async function Page() {
      <BlogBanner locale={locale} banner={banner?.data}></BlogBanner>
       <BlogShow blogs={blogsData.data} locale={locale}></BlogShow>
       <Subscribe></Subscribe>
-      <GetInTouch></GetInTouch>
+      <GetInTouch locale={locale}></GetInTouch>
     </div>
   );
 }

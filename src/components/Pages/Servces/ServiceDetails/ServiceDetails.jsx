@@ -6,7 +6,7 @@ import ServiceConfigaration from "./ServiceConfigaration/ServiceConfigaration";
 
 const ServiceDetails = async ({ product }) => {
   const locale = await getLocale();
-  
+  console.log(product);
   return (
     <div>
       <ServiceConfigaration
