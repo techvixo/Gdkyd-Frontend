@@ -38,7 +38,7 @@ const BlogDetails = async ({id}) => {
             <span>{"Blog single details"}</span>
           </p>
           <h2 className="text-xl md:text-2xl font-bold uppercase text-[#064a9b] ">
-            {locale == "en" ? blog?.data?.name_cn : blog?.data?.name_cn}
+            {locale == "en" ? blog?.data?.name_en : blog?.data?.name_cn}
           </h2>
         </div>
       </div>
@@ -80,62 +80,7 @@ const BlogDetails = async ({id}) => {
             })}
           </div>
         )}
-        {/* <div className="blog_para">
-          <p className="text-sm md:text-base text-[#606060] my-3 md:my-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            pellentesque leo nec aenean maecenas odio tempus id. Mauris,
-            elementum est egestas tincidunt pellentesque. Tempus massa rhoncus
-            velit nec. Lorem purus est facilisis quam lorem amet, nunc lectus.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            pellentesque leo nec aenean maecenas odio tempus id. Mauris,
-            elementum est egestas tincidunt pellentesque. Tempus massa rhoncus
-            velit nec. Lorem purus est facilisis quam lorem amet, nunc lectus.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            pellentesque leo nec aenean maecenas odio tempus id. Mauris,
-            elementum est egestas tincidunt pellentesque. Tempus massa rhoncus
-            velit nec. Lorem purus est facilisis quam lorem amet, nunc lectus.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            pellentesque leo nec aenean maecenas odio tempus id. Mauris,
-            elementum est egestas tincidunt pellentesque. Tempus massa rhoncus
-            velit nec. Lorem purus est facilisis quam lorem amet, nunc lectus.
-          </p>
-          <p className="text-sm md:text-base text-[#606060] my-3 md:my-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            pellentesque leo nec aenean maecenas odio tempus id. Mauris,
-            elementum est egestas tincidunt pellentesque. Tempus massa rhoncus
-            velit nec. Lorem purus est facilisis quam lorem amet, nunc lectus.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            pellentesque leo nec aenean maecenas odio tempus id. Mauris,
-            elementum est egestas tincidunt pellentesque. Tempus massa rhoncus
-            velit nec. Lorem purus est facilisis quam lorem amet, nunc lectus.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            pellentesque leo nec aenean maecenas odio tempus id. Mauris,
-            elementum est egestas tincidunt pellentesque. Tempus massa rhoncus
-            velit nec. Lorem purus est facilisis quam lorem amet, nunc lectus.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            pellentesque leo nec aenean maecenas odio tempus id. Mauris,
-            elementum est egestas tincidunt pellentesque. Tempus massa rhoncus
-            velit nec. Lorem purus est facilisis quam lorem amet, nunc lectus.
-          </p>
-          <p className="text-sm md:text-base text-[#606060] my-3 md:my-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            pellentesque leo nec aenean maecenas odio tempus id. Mauris,
-            elementum est egestas tincidunt pellentesque. Tempus massa rhoncus
-            velit nec. Lorem purus est facilisis quam lorem amet, nunc lectus.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            pellentesque leo nec aenean maecenas odio tempus id. Mauris,
-            elementum est egestas tincidunt pellentesque. Tempus massa rhoncus
-            velit nec. Lorem purus est facilisis quam lorem amet, nunc lectus.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            pellentesque leo nec aenean maecenas odio tempus id. Mauris,
-            elementum est egestas tincidunt pellentesque. Tempus massa rhoncus
-            velit nec. Lorem purus est facilisis quam lorem amet, nunc lectus.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            pellentesque leo nec aenean maecenas odio tempus id. Mauris,
-            elementum est egestas tincidunt pellentesque. Tempus massa rhoncus
-            velit nec. Lorem purus est facilisis quam lorem amet, nunc lectus.
-          </p>
-        </div> */}
+        
       </div>
       <RelatedBlogs locale={locale} blogs={filterBlogs}></RelatedBlogs>
       <Subscribe></Subscribe>
