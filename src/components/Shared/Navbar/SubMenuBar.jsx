@@ -13,7 +13,7 @@ const SubMenuBar = ({ setNavToggle, allCategories, locale }) => {
           <span className="absolute -z-50 top-[-20px] left-1/2  rotate-45  bg-primary h-5 w-5 "></span>
         </div>
         <div className="grid grid-cols-4 gap-5">
-          {allCategories?.slice(0, 4)?.map((service, i) => {
+          {allCategories?.map((service, i) => {
             return (
               <div key={i} className="mx-auto z-40 p-2">
                 <NavLink
@@ -26,7 +26,7 @@ const SubMenuBar = ({ setNavToggle, allCategories, locale }) => {
                   {locale == "en" ? service?.name_en : service?.name_cn}
                 </NavLink>
                 <ul className=" py-2">
-                  {service?.products?.slice(0, 5)?.map((subService, i) => {
+                  {service?.products?.map((subService, i) => {
                     // Function to convert a string into a URL-friendly slug
                     const generateSlug = (text) => {
                       return text

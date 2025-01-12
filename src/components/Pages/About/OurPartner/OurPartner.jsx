@@ -4,7 +4,7 @@ import PartnerCard from "./PartnerCard";
 
 const OurPartner = ({ ourPartners, locale }) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const partnersPerPage = 6;
+  const partnersPerPage = 8; // Adjusted to fit 4 cards per row
 
   // Calculate the index range for the current page
   const indexOfLastPartner = currentPage * partnersPerPage;
@@ -25,24 +25,26 @@ const OurPartner = ({ ourPartners, locale }) => {
         <h2 className="md:pt-5 text-2xl md:text-3xl font-bold text-[#070F11] my-4 md:my-7">
           {"Our Partner"}
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-5">
+
+        {/* Grid with 4 columns on larger screens */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
           {currentPartners?.map((part, i) => (
-            <PartnerCard locale={locale} key={i} part={part}></PartnerCard>
+            <PartnerCard locale={locale} key={i} part={part} />
           ))}
         </div>
 
         {/* Pagination */}
         <div className="flex justify-center mt-5">
           {Array.from({ length: totalPages }, (_, i) => (
-           <button
-           key={i}
-           className={`px-3 py-1 border rounded-full  hover:border-blue-500 ${
-             currentPage === i + 1 ? "bg-blue-500 text-white" : "bg-gray-200"
-           }`}
-           onClick={() => handlePageChange(i + 1)}
-         >
-           {i + 1}
-         </button>
+            <button
+              key={i}
+              className={`px-3 py-1 border rounded-full hover:border-blue-500 ${
+                currentPage === i + 1 ? "bg-blue-500 text-white" : "bg-gray-200"
+              }`}
+              onClick={() => handlePageChange(i + 1)}
+            >
+              {i + 1}
+            </button>
           ))}
         </div>
       </div>

@@ -4,7 +4,7 @@ import PartnerCard from "../OurPartner/PartnerCard";
 
 const Honor = ({ honors, locale }) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const partnersPerPage = 6;
+  const partnersPerPage = 12;
 
   // Calculate the index range for the current page
   const indexOfLastPartner = currentPage * partnersPerPage;
@@ -25,7 +25,7 @@ const Honor = ({ honors, locale }) => {
         <h2 className="md:pt-5 text-2xl md:text-3xl font-bold text-[#070F11] my-4 md:my-7">
           {"Our Honer"}
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-3 md:gap-5">
           {currentPartners?.map((part, i) => (
             <PartnerCard locale={locale} key={i} part={part}></PartnerCard>
           ))}
