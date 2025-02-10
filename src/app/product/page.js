@@ -10,9 +10,10 @@ import TopGap from "../../components/Shared/TopGap/TopGap";
 import getProducts from "../../lib/getProducts"
 import getBanners from "../../lib/getBanner"
 import { getLocale } from "next-intl/server";
+
 export const metadata = {
-  title: "KYD - Services",
-  description: "Expert Manufacturer of Non-Woven Processing Equipment | Guangdong KYD Precision Machinery Co., Ltd.",
+  title: "Get in Touch with Guangdong KYD - Precision Machinery Leaders",
+  description: "Guangdong KYD Company specializes in precision machinery for non-woven products. Browse our range of automatic mask machines, medical gown machines, and more to optimize your manufacturing process.",
 };
 export default async function Page() {
   const allProducts = await getProducts()

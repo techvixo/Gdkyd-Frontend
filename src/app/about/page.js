@@ -17,8 +17,8 @@ import getBanners from "../../lib/getBanner";
 import { getLocale } from "next-intl/server";
 import getHonors from "../../lib/getHonors";
 export const metadata = {
-  title: "KYD - About",
-  description: "Expert Manufacturer of Non-Woven Processing Equipment | Guangdong KYD Precision Machinery Co., Ltd.",
+  title: "About Guangdong KYD Company | Leading Medical Equipment Manufacturer & Mask Machine Supplier",
+  description: "Guangdong KYD Company, a leading medical equipment manufacturer, specializes in high-quality automatic face mask machines and non-woven production solutions. With years of innovation and expertise, we deliver reliable, efficient, and cutting-edge machinery worldwide.",
 };
 
 export default async function Page() {

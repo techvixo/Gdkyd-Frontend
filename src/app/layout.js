@@ -9,9 +9,51 @@ import { Toaster } from "react-hot-toast";
 import Script from "next/script";
 
 export const metadata = {
-  title: "Guangdong KYD Precision Machinery Co., Ltd.",
+  title:
+    "Guangdong KYD Company | Trusted Medical Equipment Manufacturer & Face Mask Machine Supplier",
   description:
-    "Expert Manufacturer of Non-Woven Processing Equipment | Guangdong KYD Precision Machinery Co., Ltd.",
+    "Guangdong KYD Company – A leading manufacturer of automatic medical mask machines, non-woven production lines, and disposable hygiene product machines. Trusted for innovation, efficiency, and precision in automated manufacturing solutions. Contact us today!",
+    siteName: "GDKYD",
+    type: "Organization",
+  category: 'Service',
+  url: "https://gdkyd.com",
+  icons: {
+    icon: '/assets/logo/main-logo.webp',
+  },
+  openGraph: {
+    title: "Guangdong KYD Company",
+    description: "The best medical equipment at your fingertips.",
+    images:
+      "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmain-logo.af298e21.webp&w=828&q=75",
+    images: [
+      {
+        url: "https://nextjs.org/og.png", // Must be an absolute URL
+        width: 800,
+        height: 600,
+        alt: "Guangdong KYD Company Logo",
+      },
+    ],
+  },
+  authors: [{ name: "GDKYD" }, { name: "GDKYD", url: "https://www.gdkyd.com" }],
+  creator: "GDKYD",
+  publisher: "GDKYD",
+  formatDetection: {
+    email: "kyd@kuaiyuda.com",
+    address:
+      "No.321 Dongshen Road, Tangxia Town, Dongguan City, Guangdong Province",
+    telephone: "+1-234-567-890",
+  },
+  keywords: [
+    "Trusted Medical Equipment Manufacturer",
+    "Face Mask Machine Supplier",
+  ],
+  metadataBase: new URL(`https://gdkyd.com`),
+  alternates: {
+    canonical: "./",
+  },
+  verification: {
+    google: "h3e62bYsWEGHaX-2QCqFFXfOGtkjb5lMJ_FJpg0a6R0", // Paste the code from Google Search Console [1, 4, 19]
+  },
 };
 
 export default async function RootLayout({ children }) {
@@ -21,10 +63,6 @@ export default async function RootLayout({ children }) {
   return (
     <html lang={locale}>
       <head>
-        <meta
-          name="google-site-verification"
-          content="h3e62bYsWEGHaX-2QCqFFXfOGtkjb5lMJ_FJpg0a6R0"
-        />
         {/* Add Google Analytics Script */}
         <Script
           strategy="afterInteractive"

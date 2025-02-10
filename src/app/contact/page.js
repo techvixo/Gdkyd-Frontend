@@ -7,8 +7,8 @@ import getBanners from "../../lib/getBanner";
 import { BASEURL } from "../../../Constant";
 import { getLocale } from "next-intl/server";
 export const metadata = {
-  title: "KYD - Contact",
-  description: "Expert Manufacturer of Non-Woven Processing Equipment | Guangdong KYD Precision Machinery Co., Ltd.",
+  title: "Guangdong KYD Company Contact Information - Precision Machinery Leaders",
+  description: "Get in touch with Guangdong KYD Company, a trusted medical equipment manufacturer and face mask machine supplier. Contact us for inquiries about our advanced non-woven production solutions and reliable customer support.",
 };
 export default async function Page() {
   const banner = await getBanners("contact_us")
