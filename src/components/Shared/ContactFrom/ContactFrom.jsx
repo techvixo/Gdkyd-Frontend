@@ -121,6 +121,9 @@ const ContactForm = ({ locale, name, phone, email, product, note }) => {
           <option value={locale == "en" ? "Packaging Machinery" : "包装机械"}>
             {locale == "en" ? "Packaging Machinery" : "包装机械"}
           </option>
+          <option value={locale == "en" ? "Packaging Machinery" : "包装机械"}>
+            {locale == "en" ? "Non-Standard Equipment" : "非标设备"}
+          </option>
         </select>
       </div>
       <div className="input_item">

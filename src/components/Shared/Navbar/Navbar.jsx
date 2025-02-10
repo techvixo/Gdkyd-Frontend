@@ -113,18 +113,12 @@ const Navbar = ({ allCategories, locale }) => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://wa.me/+86-13902617335"
+              // href="https://wa.me/+86-13902617335"
+                href="https://api.whatsapp.com/send?phone=+86-13902617335&text=Hello,%20I'm%20interested%20in%20your%20services.%20Could%20you%20share%20more%20details?"
               className="flex items-center justify-center hover:text-secondary transition text-white text-sm md:text-base rounded-full"
             >
               <BsWhatsapp />
             </a>
-            {/* <a
-                target="blank"
-                  href="https://wa.me/+8801835339927"
-                  className="flex items-center justify-center hover:bg-primary transition text-white h-7 w-7 border border-primary text-sm rounded-full "
-                >
-                  <RiWhatsappFill />
-                </a> */}
           </div>
         </div>
       </div>
