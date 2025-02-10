@@ -15,7 +15,7 @@ const CustomPartsBanner = () => {
         preload="auto" // Preloads video for smoother experience
         aria-label="Background video"
       >
-        <source src="/assets/home-img/kyd_video.mp4" type="video/mp4" />
+        <source src="/assets/home-img/gdkyd_video.mp4" type="video/mp4" />
 
         <p>Your browser does not support the video tag.</p>
       </video>
