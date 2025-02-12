@@ -12,7 +12,7 @@ const ServiceBannerWrapper = ({ banner, locale }) => {
       des={locale == "en" ? banner?.description_en
         : banner?.description_cn
       }
-      link={"services"}
+      link={"product"}
     ></ServiceBanner>
   )
 }

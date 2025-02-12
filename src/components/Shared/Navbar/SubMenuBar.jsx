@@ -7,10 +7,10 @@ const SubMenuBar = ({ setNavToggle, allCategories, locale }) => {
 
   // console.log("HHHHHHHHHHHHHHHH:", allCategories);
   return (
-    <div className="sub_nav_manu main_container rounded-b-md py-6 z-10 shadow-lg absolute top-28 left-0 right-0 w-full h-auto bg-primary p-1 text-white ">
+    <div className="sub_nav_manu main_container rounded-b-md py-6 z-10 shadow-lg absolute top-28 left-0 right-0 w-full h-auto bg-[#465267] p-1 text-white ">
       <div className="">
         <div className="relative">
-          <span className="absolute -z-50 top-[-20px] left-1/2  rotate-45  bg-primary h-5 w-5 "></span>
+          <span className="absolute z-50 top-[-30px] left-1/2  rotate-45  bg-[#465267] h-5 w-5 "></span>
         </div>
         <div className="grid grid-cols-4 gap-5">
           {allCategories?.map((service, i) => {

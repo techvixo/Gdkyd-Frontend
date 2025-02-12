@@ -13,7 +13,7 @@ const MachineCard = ({ part, locale }) => {
           height={400}
           src={`${BASEURL}/${image}`}
           alt={locale == "en" ? title_en : title_cn}
-          className="w-full h-64 md:h-80 object-cover"
+          className="w-full "
         />
         <div className="p-4 bg-[#FBFAFE]">
           <h3 className="text-xl md:my-2 capitalize text-center font-semibold text-[#1A1A1A]">{locale == "en" ? title_en : title_cn}</h3>
