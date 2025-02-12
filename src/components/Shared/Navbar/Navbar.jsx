@@ -68,8 +68,10 @@ const Navbar = ({ allCategories, locale }) => {
         <div className="w-full grid grid-cols-2 py-2 md:py-3 px-10 bg-[#064a9b]">
           <div className="flex items-center justify-start gap-8 w-full">
             <a
-              target="blank"
-              href="https://wa.me/+86-13902617335"
+              target="_blank"
+              rel="noopener noreferrer"
+              // href="https://wa.me/+86-13902617335"
+                href="https://api.whatsapp.com/send?phone=+86-13902617335&text=Hello,%20I'm%20interested%20in%20your%20services.%20Could%20you%20share%20more%20details?"
               className="flex text-sm items-center hover:text-red-600 transition gap-2 text-white"
             >
               <span className="">

@@ -123,8 +123,10 @@ const GetInTouch = ({locale}) => {
                <IoLogoTiktok />
               </a>
               <a
-                target="blank"
-                href="https://wa.me/+86-13902617335"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 // href="https://wa.me/+86-13902617335"
+                   href="https://api.whatsapp.com/send?phone=+86-13902617335&text=Hello,%20I'm%20interested%20in%20your%20services.%20Could%20you%20share%20more%20details?"
                 className=""
               >
                 <RiWhatsappFill />
