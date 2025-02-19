@@ -13,6 +13,17 @@ import getBanners from "../../../lib/getBanner"
 import { getLocale } from "next-intl/server";
 import { BASEURL } from "../../../../Constant";
 
+export async function generateMetadata({ params }) {
+  // read route params
+  const id = (await params).serviceCategoryId
+  const category = await getSpecificCategory(id)
+ 
+  return {
+    title: category?.data?.name_en,
+    description: category?.data?.description_en,
+  }
+}
+ 
 export default async function Page({params}) {
   const categoryProducts = await getSpecificCategory(params?.serviceCategoryId);
   const banner = await getBanners("services")

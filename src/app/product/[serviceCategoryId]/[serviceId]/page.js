@@ -6,6 +6,17 @@ import getBanners from "../../../../lib/getBanner";
 import { getLocale } from "next-intl/server";
 import { BASEURL } from "../../../../../Constant";
 
+export async function generateMetadata({ params }) {
+  // read route params
+  const id = (await params).serviceId
+  const product = await getSpecificProduct(id)
+ 
+  return {
+    title: product?.data?.title_en,
+    description: product?.data?.subTitle_en,
+  }
+}
+ 
 
 export default async function Page({params}) {
   // const productId = "673cc31e7f4e54dc479bd6d2"

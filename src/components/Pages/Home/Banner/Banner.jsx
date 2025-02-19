@@ -45,13 +45,13 @@ const Banner = ({ locale, data }) => {
                         : slider?.description_cn}
                     </p>
                     <div className="w-full flex items-center justify-center pt-5 md:pt-2">
-                      <div className="md:w-2/3 h-12 md:h-14 bg-white relative w-full rounded-2xl">
+                      <div className="md:w-2/3 h-12 md:h-14 bg-[#fafafa87] shadow  relative w-full rounded-2xl">
                         <input
                           // onChange={(e) => setInputValue(e.target.value)}
                           type="text"
                           required
                           placeholder="Search here.."
-                          className={`absolute top-0 text-black left-0 input h-full rounded-2xl input-bordered w-full `} // Add red border when email is not valid
+                          className={`absolute top-0 bg-transparent text-black placeholder-black left-0 input h-full rounded-2xl input-bordered w-full `} // Add red border when email is not valid
                         />
                         <button
                           onClick={handleSearch}

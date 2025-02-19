@@ -19,7 +19,7 @@ const BlogDetails = async ({id}) => {
   const filterBlogs = relatedBlogs?.data?.filter(
     (relatedBlog) => relatedBlog?._id !== isBlog
   );
-  // console.log("blogGGGGGGGGGGGGGGGGGGG:", filterBlogs);
+  // console.log("blogGGGGGGGGGGGGGGGGGGG:", blog);
   return (
     <div>
       <div className="blog_detail_top bg-[#064a9b1A] py-3 md:py-5">
