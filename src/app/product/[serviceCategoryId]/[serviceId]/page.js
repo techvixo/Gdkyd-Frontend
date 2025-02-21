@@ -16,7 +16,7 @@ export async function generateMetadata({ params }) {
     description: product?.data?.subTitle_en,
   }
 }
- 
+
 
 export default async function Page({params}) {
   // const productId = "673cc31e7f4e54dc479bd6d2"
@@ -24,8 +24,20 @@ export default async function Page({params}) {
   const banner = await getBanners("services")
   const locale = await getLocale();
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product?.data?.title_en,
+    image:  `${BASEURL}/${product?.data?.images[0]}`,
+    description: product?.data?.subTitle_en,
+  }
+  
   return (
     <div className="">
+     <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <TopGap></TopGap>
       <ServiceBanner
         bannerBg={`${BASEURL}/${banner?.data?.banner_image}`}

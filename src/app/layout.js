@@ -13,12 +13,16 @@ export const metadata = {
     "Guangdong KYD Company | Trusted Medical Equipment Manufacturer & Face Mask Machine Supplier",
   description:
     "Guangdong KYD Company – A leading manufacturer of automatic medical mask machines, non-woven production lines, and disposable hygiene product machines. Trusted for innovation, efficiency, and precision in automated manufacturing solutions. Contact us today!",
+  metadataBase: new URL(`https://gdkyd.com`),
+  alternates: {
+    canonical: "./",
+  },
   siteName: "GDKYD",
   type: "Organization",
   category: "Service",
   url: "https://gdkyd.com",
   icons: {
-    icon: "/assets/logo/main-logo.webp",
+    icon: "https://gdkyd.com/assets/logo/main-logo.webp",
   },
   openGraph: {
     title: "Guangdong KYD Company",
@@ -47,10 +51,6 @@ export const metadata = {
     "Trusted Medical Equipment Manufacturer",
     "Face Mask Machine Supplier",
   ],
-  metadataBase: new URL(`https://gdkyd.com`),
-  alternates: {
-    canonical: "./"
-  },
   verification: {
     google: "h3e62bYsWEGHaX-2QCqFFXfOGtkjb5lMJ_FJpg0a6R0", // Paste the code from Google Search Console [1, 4, 19]
   },
@@ -60,6 +60,15 @@ export default async function RootLayout({ children }) {
   const locale = await getLocale();
   const messages = await getMessages();
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "GDKYD",
+    url: "https://gdkyd.com",
+    image: `https://gdkyd.com/assets/logo/main-logo.webp`,
+    description:
+      "Guangdong KYD Company – A leading manufacturer of automatic medical mask machines, non-woven production lines, and disposable hygiene product machines. Trusted for innovation, efficiency, and precision in automated manufacturing solutions. Contact us today!",
+  };
   return (
     <html lang={locale}>
       <head>
@@ -94,6 +103,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           async
           src="//tfile.xiaoman.cn/okki/analyze.js?id=74988-19919-"
         ></script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       </head>
       <body className={``}>
         <Toaster position="top-center" />
