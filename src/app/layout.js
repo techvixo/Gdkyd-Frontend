@@ -60,14 +60,26 @@ export default async function RootLayout({ children }) {
   const locale = await getLocale();
   const messages = await getMessages();
 
+  // Structured Data (JSON-LD)
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "GDKYD",
     url: "https://gdkyd.com",
+    logo: `https://gdkyd.com/assets/logo/main-logo.webp`,
     image: `https://gdkyd.com/assets/logo/main-logo.webp`,
     description:
       "Guangdong KYD Company – A leading manufacturer of automatic medical mask machines, non-woven production lines, and disposable hygiene product machines. Trusted for innovation, efficiency, and precision in automated manufacturing solutions. Contact us today!",
+    telephone: "+1-234-567-890", // Add your business phone number here
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        telephone: "+1-234-567-890",
+        contactType: "customer service",
+        areaServed: "World",
+        availableLanguage: ["English", "Chinese"],
+      },
+    ],
   };
   return (
     <html lang={locale}>
