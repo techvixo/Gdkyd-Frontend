@@ -20,7 +20,7 @@ const generateSlug = (text) => {
         <Image
           width={500}
           height={400}
-          src={`${BASEURL}/${product?.images[0]}`}
+          src={`${product?.images[0]}`}
           alt={locale == "en" ? product?.title_en : product?.title_en}
           className="w-full"
         />

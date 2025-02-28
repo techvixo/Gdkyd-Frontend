@@ -75,12 +75,12 @@ const DetailImages = ({ productImage }) => {
             {productImage?.map((img, i) => {
               return (
                 <div key={i} className="px-2">
-                  <PhotoView src={`${BASEURL}/${img}`}>
+                  <PhotoView src={`${img}`}>
                     <Image
                       width={500}
                       height={400}
                       // src={img?.imgUrl}
-                      src={`${BASEURL}/${img}`}
+                      src={`${img}`}
                       alt={"product-image"}
                       className="w-full  cursor-pointer"
                     />

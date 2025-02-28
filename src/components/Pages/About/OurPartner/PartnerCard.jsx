@@ -8,7 +8,7 @@ const PartnerCard = ({part, locale}) => {
     <Image
     width={400}
     height={400}
-      src={`${BASEURL}/${part?.image}`}
+      src={`${part?.image}`}
       alt={locale == "en" ? part?.name_en : part?.name_cn}
       className="w-full"
     />

@@ -74,7 +74,7 @@ const Banner = ({ locale, data }) => {
                 <Image
                   width={1200}
                   height={800}
-                  src={`${BASEURL}/${slider?.image}`}
+                  src={`${slider?.image}`}
                   // alt={locale == "en" ? product?.title_en : product?.title_en}
                   alt="banner-image"
                   className="w-full h-full object-cover"

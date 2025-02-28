@@ -17,7 +17,7 @@ const Certificates = ({ certificatesData, locale }) => {
               <div key={i} className="flex flex-col justify-center items-center rounded-lg bg-white shadow-xl overflow-hidden transform hover:scale-105 transition-all duration-300 ease-in-out">
                 <div className="relative w-full h-72 md:h-96">
                   <Image
-                    src={`${BASEURL}/${item?.image}`}
+                    src={`${item?.image}`}
                     alt={locale === "en" ? item?.name_en : item?.name_cn}
                     layout="fill"
                     objectFit="contain"

@@ -20,31 +20,6 @@ export default async function Page() {
   const banner = await getBanners("services")
   const locale = await getLocale();
 
-const productsForSitemap = [
-  {
-    product: "title_en/product name",
-    product_id: "ObjectId",
-    category: "category name in english",
-    category_id: "ObjectId"
-  },
-  {
-    product: "title_en/product name",
-    product_id: "ObjectId",
-    category: "category name in english",
-    category_id: "ObjectId"
-  },
-]
-const productCategoriesForSitemap = [
-  {
-    category: "category name in english",
-    category_id: "ObjectId"
-  },
-  {
-    category: "category name in english",
-    category_id: "ObjectId"
-  },
-]
-
   return (
     <div className="">
       <TopGap></TopGap>

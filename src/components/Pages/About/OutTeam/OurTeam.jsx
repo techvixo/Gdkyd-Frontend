@@ -100,7 +100,7 @@ const OurTeam = ({ourTeamMembers, locale}) => {
                     <Image
                       width={100}
                       height={100}
-                      src={`${BASEURL}/${item?.image}`}
+                      src={`${item?.image}`}
                       alt={locale == "en" ? item?.name_en : item?.name_cn}
                       className="w-full rounded-full h-full object-cover"
                     />

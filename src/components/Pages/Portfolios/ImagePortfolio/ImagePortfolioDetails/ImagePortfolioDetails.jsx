@@ -34,7 +34,7 @@ const ImagePortfolioDetails = ({ locale, data, slag }) => {
           <Image
             height={800}
             width={1000}
-            src={`${BASEURL}/${data?.image}`}
+            src={`${data?.image}`}
             alt={locale == "en" ? data?.name_en : data?.name_cn}
             className="w-full"
           />

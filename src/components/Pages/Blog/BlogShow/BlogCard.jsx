@@ -18,7 +18,7 @@ const BlogCard = ({ blog, locale }) => {
         <Image
           width={600}
           height={400}
-          src={`${BASEURL}/${blog?.heading_image}`}
+          src={`${blog?.heading_image}`}
           alt={locale == "en" ? blog?.name_en : blog?.name_cn}
           className="w-full rounded-md h-52 md:h-64 object-cover"
         />

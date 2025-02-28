@@ -11,7 +11,7 @@ const MachineCard = ({ part, locale }) => {
         <Image
           width={400}
           height={400}
-          src={`${BASEURL}/${image}`}
+          src={`${image}`}
           alt={locale == "en" ? title_en : title_cn}
           className="w-full "
         />

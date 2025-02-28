@@ -47,7 +47,7 @@ const BlogDetails = async ({id}) => {
           <Image
             width={1000}
             height={600}
-            src={`${BASEURL}/${blog?.data?.heading_image}`}
+            src={`${blog?.data?.heading_image}`}
             // alt={locale == "en" ? product?.title_en : product?.title_en}
             alt={"Blog detail image here.."}
             className="w-full"

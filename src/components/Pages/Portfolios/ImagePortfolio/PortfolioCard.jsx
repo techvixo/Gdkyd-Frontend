@@ -9,7 +9,7 @@ const PortfolioCard = ({ portfolio, locale }) => {
         <Image
           width={400}
           height={600}
-          src={`${BASEURL}/${portfolio?.image}`}
+          src={`${portfolio?.image}`}
           alt={locale == "en" ? portfolio?.name_en : portfolio?.name_cn}
           className="w-full rounded-md"
         />
