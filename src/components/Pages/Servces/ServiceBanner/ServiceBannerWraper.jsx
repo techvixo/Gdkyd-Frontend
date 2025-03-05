@@ -5,7 +5,7 @@ const ServiceBannerWrapper = ({ banner, locale }) => {
   // console.log("banner:", banner)
   return (
     <ServiceBanner
-      bannerBg={`${BASEURL}/${banner?.banner_image}`}
+      bannerBg={`${banner?.banner_image}`}
       title={locale == "en" ? banner?.title_en
         : banner?.title_cn
       }

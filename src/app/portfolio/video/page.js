@@ -31,7 +31,7 @@ export default async function Page() {
     <div className="">
       <TopGap></TopGap>
       <ShareBanner
-        bannerBg={`${BASEURL}/${banner?.data?.banner_image}`}
+        bannerBg={`${banner?.data?.banner_image}`}
         title={locale == "en" ? banner?.data?.title_en
           : banner?.data?.title_cn
         }

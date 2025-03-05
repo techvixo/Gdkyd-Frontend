@@ -9,7 +9,7 @@ const AboutBanner = ({ banner, locale }) => {
   return (
     <div>
         <ShareBanner
-         bannerBg={`${BASEURL}/${banner?.banner_image}`}
+         bannerBg={`${banner?.banner_image}`}
          title={locale == "en" ? banner?.title_en
            : banner?.title_cn
          }

@@ -32,7 +32,7 @@ export default async function Page({params}) {
     <div className="">
       <TopGap></TopGap>
       <ServiceBanner
-        bannerBg={`${BASEURL}/${banner?.data?.banner_image}`}
+        bannerBg={`${banner?.data?.banner_image}`}
         title={locale == "en" ? banner?.data?.title_en
           : banner?.data?.title_cn
         }
